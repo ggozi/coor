@@ -1,0 +1,651 @@
+/* 나눔바른고딕 웹폰트 가져오기 
+@font-face {
+ font-family: 'NanumBarunGothic';
+ font-style: normal;
+ font-weight: 400;
+ src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+ src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'),
+		url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'),
+		url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+}
+@font-face {
+ font-family: 'NanumBarunGothic';
+ font-style: normal;
+ font-weight: 700;
+ src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+ src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'),
+		url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'),
+		url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+}
+*/
+/* 회원가입 페이지 */
+.ec-base-box.typeThin {border:0;}
+.xans-member-join .join fieldset {width:500px;padding:0;font-family:"NanumBarunGothic",sans-serif; margin:0 auto;}
+.xans-member-join .join fieldset > a {position:static;}
+
+.xans-member-join .join fieldset > label > div {font-size:12px;}
+.xans-member-join .join fieldset .id  { overflow:hidden; display:block; width:100%; margin:0 0 14px;border:0; border-radius:0; color:#555; }
+.xans-member-join .join fieldset .password { overflow:hidden; display:block; width:100%; margin:0 0 18px;border:0;  border-radius:0; color:#555; }
+.xans-member-join .join fieldset input[type=text],
+.xans-member-join .join fieldset input[type=password] { width:100%; height:44px; line-height:44px; padding:6px 0 0 10px; border:0 none; color:#555; }
+.xans-member-join .join fieldset .security { padding:0; margin:3px 0px 20px 0;font-size:0; }
+.xans-member-join .join fieldset .security ul {float:right;padding:0;margin:0;}
+.xans-member-join .join fieldset .security ul li {font-size:11px;color:#555;padding:0 5px;}
+.xans-member-join .join fieldset li:after {border:0;}
+.xans-member-join .eTooltip {display: block;}
+.join .login_title	{padding-bottom: 4px}
+
+.xans-member-join {;margin:0 auto;vertical-align:top;}
+.xans-member-join .titleArea2 {font-size:24px;color:#333;font-weight:700;text-align:center;}
+.xans-member-join .titleArea2 span {display:block;font-size:15px;color:#848484;padding-top:10px;font-weight:400;}
+.xans-member-join .titleArea3 {font-size:24px;color:#333;font-weight:100;text-align:center;margin-bottom:30px;}
+.xans-member-join .titleArea3 span {font-size:15px;color:#848484;display:block;padding-top:10px;}
+.xans-member-join .join_benefit_img {text-align:center;margin:44px auto 90px;}
+.xans-member-join .ec-base-table table {border:0;margin:0;padding:0;border-collapse:collapse;border-spacing:0;border-top:1px solid #202020;}
+.xans-member-join .ec-base-table table:before {content:none;}
+.xans-member-join .ec-base-table tbody td {border:0;border-bottom:1px solid #dedede;padding:12px 0;background-color:#fff;font-size:14px;color:#888;line-height:34px;}
+.xans-member-join .ec-base-table tbody th {border:0;border-bottom:1px solid #dedede;padding:12px 0;background-color:#fff;font-size:14px;color:#222;line-height:34px;}
+.xans-member-join .ec-base-table tbody th {vertical-align:middle;}
+.xans-member-join .ec-base-table tbody td input {padding:0 10px;height:34px;line-height:34px;border:1px solid #d0d0d0;margin-right:8px;}
+.xans-member-join .ico_required_red {color:#f91310;font-size:18px;}
+.xans-member-join .required {font-size:13px;}
+.xans-member-join .business_btn,
+.xans-member-join #postBtn {border:1px solid #adadad;color:#222;width:94px;height:36px;text-align:center;padding:0;line-height:34px;font-size:14px;}
+.xans-member-join .text_vertical {margin-top:10px;display:inline-block;vertical-align:middle;}
+.xans-member-join #name, .xans-member-join #user_passwd_confirm, .xans-member-join #passwd, .xans-member-join #member_id {width:100% !important; border:2px solid black; box-sizing:border-box}
+.xans-member-join #postcode1, .xans-member-join #postcode2 {width:90px;}
+.xans-member-join #addr1, .xans-member-join #addr2 {width:480px;margin:10px 8px 0 0;}
+.xans-member-join #phone2, .xans-member-join #phone3, .xans-member-join #mobile2, .xans-member-join #mobile3 {width:80px;margin:0 7px;}
+.xans-member-join #phone1, .xans-member-join #mobile1 {width:102px;height:36px;line-height:34px;font-size:14px;border:1px solid #d0d0d0;margin-right:7px;}
+.xans-member-join #email1 {width:100%;;margin-right:7px; border: 2px solid black; box-sizing: border-box;}
+.xans-member-join #email2 {width:178px;margin:0 7px;}
+.xans-member-join #email3 {width:178px;height:36px;line-height:34px;font-size:14px;border:1px solid #d0d0d0;margin-left:7px;}
+.xans-member-join #nick_name {width:160px;}
+.xans-member-join #birth_year, .xans-member-join #marry_year, .xans-member-join #partner_year {width:80px;}
+.xans-member-join #birth_month, .xans-member-join #marry_month, .xans-member-join #partner_month, .xans-member-join #birth_day, .xans-member-join #marry_day, .xans-member-join #partner_day {width:55px;margin:0 7px;}
+.xans-member-join .ec-base-table.add_title tbody td {color:#222;}
+.xans-member-join #is_lifetime0 {margin:0;}
+.xans-member-join .sAllChecked_box {padding:0px 0 25px 0px;font-weight:500;font-size:13px;color:#222;}
+.xans-member-join .sAllChecked_box .showhide{ cursor: pointer;}
+.xans-member-join .sAllChecked_box .ec-base-chk {width:30px;height:26px;vertical-align:middle;margin:0 4px 0 0;}
+.xans-member-join .agreeArea .ec-base-chk {margin:0;}
+.xans-member-join .agreeArea {padding:0;}
+.xans-member-join .agreeArea input[type=checkbox]:not(old),
+.xans-member-join .agreeArea input[type=radio]:not(old){width:26px;}
+.xans-member-join .agreeArea input[type=checkbox]:not(old) + label,
+.xans-member-join .agreeArea input[type=radio]:not(old) + label{display:inline-block;margin:0 0 0 -26px;padding:0 0 0 33px;line-height:26px;color:#222;}
+.xans-member-join .agreeArea .check {height:26px;line-height:26px;float:left;padding:0;width:50%;}
+.xans-member-join .agreeArea .check label {color:#222;font-size:16px;}
+.xans-member-join .agreeArea .showhide {float:right;font-size:14px;color:#6f6f6f;border-bottom:1px solid #6f6f6f;line-height:20px;font-weight:300;cursor:pointer;}
+.xans-member-join .linebox {padding: 0;}
+.xans-member-join .agreeArea.marketin {padding:0;}
+.xans-member-join .agreeArea.marketin .check {display:inline-block;margin-right:20px;}
+.xans-member-join .agreeArea.marketin .check input[type=checkbox]:not(old) {width:18px;}
+.xans-member-join .agreeArea.marketin .check input[type=checkbox]:not(old) + label {display:inline-block;margin:0 0 0 -68px;padding:0 0 0 25px;background:#fff;line-height:18px;color:#222;}
+.xans-member-join .agreeArea .content {margin-top:40px;}
+.xans-member-join .agreeArea .content{ border:2px solid black;}
+.xans-member-join .agreeArea .check > span > label[for="is_news_mail0"] > label[for="is_news_mail0"] {margin-left:-68px;background-color:#fff;}
+.xans-member-join .agreeArea .check > span > label[for="is_sms0"] > label[for="is_sms0"] {margin-left:-68px;background-color:#fff;}
+.xans-member-join input[type=text],
+.xans-member-join input[type=password] {font-size:14px;}
+.xans-member-join .ec-base-button a {width:200px !important;height:49px;line-height:49px;background-color:#333;color:#fff;font-size:15px;text-align:center;display:block;font-weight:700;padding:0;margin:20px auto;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;font-family:"NanumBarunGothic",sans-serif;}
+.xans-member-join .ec-base-button a:hover {background-color:#000;}
+
+/* 회원가입 완료페이지 */
+.xans-member-joincomplete {border:0;}
+.xans-member-joincomplete .joinComplete .desc {color:#000;}
+.xans-member-joincomplete .ec-base-desc dd, 
+.xans-member-joincomplete .ec-base-desc .desc{line-height:30px !important;}
+/*.xans-member-joincomplete .ec-base-button a {width:200px;height:49px;line-height:49px;background-color:#333;color:#fff;font-size:15px;text-align:center;display:block;font-weight:700;padding:0;margin:0 auto;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-member-joincomplete .ec-base-button a:hover {background-color:#000;}*/
+/* 마이페이지 포인트 색상 */
+.xans-myshop-asyncbankbook .use,
+.txtEm {color:#111;}
+
+/* 마이페이지 나의주문처리현황 */
+.xans-myshop-orderstate { margin:20px auto 0; border:0px solid #dedede; border-top:2px solid black; width:100%;}
+.xans-myshop-orderstate .state:after { content:""; display:block; clear:both; }
+.xans-myshop-orderstate .title { padding:11px 21px; margin:0; border-bottom:0px !important;  background:white !important;}
+.xans-myshop-orderstate .title h3 {font-size:20px;color:#222;font-weight:100; font-family: 'Neue Haas Unica'; font-weight: bold !important;}
+.xans-myshop-orderstate .desc em,
+.xans-myshop-orderstate .cs .count,
+.xans-myshop-orderstate .order .count {color:#111;  font-family: 'Neue Haas Unica';}
+
+.xans-myshop-orderstate .order:after { content:""; display:block; clear:both; }
+.xans-myshop-orderstate .order li {border: 0 !important;}
+.xans-myshop-orderstate .order .count	{font-size:33px;}
+.xans-myshop-orderstate .state {padding: 19px 0 40px}
+
+/* 마이페이지 메뉴 아이콘 */
+#myshopMain ul { margin: 0 -1% 0; }
+#myshopMain .shopMain { float: left; width: 33%; height: 140px; margin:0 !important; padding: 45px 0px; border: 1px solid #e9e9e9; box-sizing: border-box; text-align: center; background:black; color:white;}
+#myshopMain .shopMain h3 strong { color:white; font-family: 'Neue Haas Unica';}
+#myshopMain .shopMain h3 span { color:white;}
+#myshopMain .shopMain:hover {border:1px solid #999;}
+
+/* 마이페이지 조회 */
+.xans-myshop-asyncbankbook { overflow:hidden;padding:1px; margin:20px auto 0 auto;border:0px solid #dedede; background:#fff;}
+.xans-myshop-asyncbankbook div {  float:left; width:270px; padding:10px 0 0 21px; }
+.xans-myshop-asyncbankbook div h2 { font-size:20px; font-family: 'Neue Haas Unica';}
+.xans-myshop-asyncbankbook div h2 span { color:#888; }
+.xans-myshop-asyncbankbook div p { color:#888;padding-left:2px; }
+.xans-myshop-asyncbankbook ul {float:right;width:470px; padding-top:12px;}
+.xans-myshop-asyncbankbook ul li { float: left; margin: 5px 0; padding: 0 45px; width: 100%; height: 27px; font-size: 12px; line-height: 1.6; vertical-align: top; box-sizing: border-box; }
+
+/* 회원정보수정 */
+.xans-myshop-asyncbenefit .description {font-size:13px;color:#444;}
+.xans-member-edit .ico_required_red {color:#f91310;font-size:18px;}
+.xans-member-edit .required {margin:-30px 0 10px;}
+.xans-member-edit .titleArea3 {font-size:24px;color:#333;font-weight:400;text-align:center;margin-bottom:30px;}
+.xans-member-edit .justify {position:relative;}
+.xans-member-edit .justify .gRight a {width:90px;height:41px;line-height:41px;padding:0;border:1px solid #d0d0d0;background-color:#fff;color:#444;font-size:14px;text-align:center;display:inline-block;font-weight:400;}
+.xans-member-edit .justify .gRight a:hover {background-color:#f3f3f3;} 
+.xans-member-edit .justify a {height:41px;line-height:41px;padding:0;font-size:14px;font-family:"NanumBarunGothic",sans-serif;}
+.xans-member-edit .justify a.btnSubmitFix {background-color:#333;}
+.xans-member-edit .justify a.btnEmFix {background-color:#999;}
+.xans-member-edit .ec-base-table table {border:0;margin:0;padding:0;border-collapse:collapse;border-spacing:0;border-top:1px solid #202020;}
+.xans-member-edit .ec-base-table table:before {content:none;}
+.xans-member-edit .ec-base-table tbody td {border:0;border-bottom:1px solid #dedede;padding:12px 0;background-color:#fff;font-size:12px;color:#888;line-height:34px;}
+.xans-member-edit .ec-base-table tbody th {border:0;border-bottom:1px solid #dedede;padding:12px 0;background-color:#fff;font-size:12px;color:#222;line-height:34px;}
+.xans-member-edit .ec-base-table tbody th {vertical-align:middle;}
+.xans-member-edit .ec-base-table tbody td input {padding:0 10px;height:34px;line-height:34px;border:1px solid black;margin-right:8px;}
+.xans-member-edit .ec-base-table .error {color:#f00;}
+.xans-member-edit .business_btn,
+.xans-member-edit #postBtn {border:1px solid black;color:#222;width:94px;height:36px;text-align:center;padding:0;line-height:34px;font-size:12px;font-family:"NanumBarunGothic",sans-serif;}
+.xans-member-edit .text_vertical {margin-top:10px;display:inline-block;vertical-align:middle;}
+.xans-member-edit #name, .xans-member-edit #user_passwd_confirm, .xans-member-edit #passwd, .xans-member-edit #member_id {width:160px;}
+.xans-member-edit #postcode1, .xans-member-edit #postcode2 {width:90px;}
+.xans-member-edit #addr1, .xans-member-edit #addr2 {width:480px;margin:10px 8px 0 0;}
+.xans-member-edit #phone2, .xans-member-edit #phone3, .xans-member-edit #mobile2, .xans-member-edit #mobile3 {width:80px;margin:0 7px;}
+.xans-member-edit #phone1, .xans-member-edit #mobile1 {width:102px;height:36px;line-height:34px;font-size:14px;border:1px solid #d0d0d0;margin-right:7px;}
+.xans-member-edit #email1 {width:185px;margin-right:7px;}
+.xans-member-edit #email2 {width:185px;margin:0 7px;}
+.xans-member-edit #email3 {width:185px;height:36px;line-height:34px;font-size:14px;border:1px solid #d0d0d0;margin-left:7px;}
+.xans-member-edit #nick_name {width:160px;}
+.xans-member-edit #birth_year, .xans-member-edit #marry_year, .xans-member-edit #partner_year {width:80px;}
+.xans-member-edit #birth_month, .xans-member-edit #marry_month, .xans-member-edit #partner_month, .xans-member-edit #birth_day, .xans-member-edit #marry_day, .xans-member-edit #partner_day {width:55px;margin:0 7px;}
+.xans-member-edit .ec-base-table.add_title tbody td {color:#222;}
+.xans-member-edit #is_lifetime0 {margin:0;}
+.xans-member-edit p.txtDesc, .xans-member-edit ul.txtDesc li {color:#222;margin:8px 0 0 0;}
+.xans-member-edit p.txtDesc:before, .xans-member-edit ul.txtDesc li:before {top:8px;}
+.xans-member-edit .txtDesc strong {color:#ff5982;font-size:15px;}
+.xans-member-edit input[type=text],
+.xans-member-edit input[type=password] {font-size:14px;}
+
+/* 일반게시판 */
+.xans-board-listpackage .ec-base-table table {border:0;border-top:1px solid #cfcfcf;border-bottom:1px solid #cfcfcf;}
+.xans-board-listpackage .ec-base-table.typeList td {padding:10px 0;font-size:13px;color:#333;font-weight:400;}
+.xans-board-listpackage .ec-base-table.typeList td a:hover {color:#000 !important;}
+.xans-board-listpackage .ec-base-table.typeList td .txtNum {font-size:12px;color: #333;}
+.xans-board-listpackage .ec-base-table.typeList td .txtNum[conslut-answer="X"]:after{content:"답변대기"}
+.xans-board-listpackage .ec-base-table.typeList td .txtNum[conslut-answer="O"]:after{content:"답변완료"}
+.xans-board-listpackage .ec-base-table thead th { padding:12px 0; border-left: 0; border-bottom: 2px solid black; color: #333;font-size:13px; font-weight:400; vertical-align: middle; background: #fff; }
+.xans-board-listpackage .ec-base-table.gBorder td {border-left:0;}
+
+/* 게시판 글보기 */
+.xans-board-readpackage .ec-base-table table {border:0;margin:0;padding:0;border-collapse:collapse;border-spacing:0;}
+.xans-board-readpackage .ec-base-table table:before {content:none;}
+.xans-board-readpackage .ec-base-table td {border:0;border-bottom:2px solid black;padding:12px 0;background-color:#fff;font-size:13px;color:#888;line-height:34px;}
+.xans-board-readpackage .ec-base-table th {border:0;border-bottom:2px solid black;padding:12px 20px;background-color:#fff;font-size:13px;color:#222;line-height:34px;}
+.xans-board-readpackage .ec-base-table th {vertical-align:middle;}
+.xans-board-readpackage .ec-base-table .detail {border:0;padding:30px 10px;margin:0;color:#444; min-height:200px;}
+.xans-board-readpackage .ec-base-table tbody td.subject {color:#444;}
+.xans-board-readpackage [class^='btnSubmit'],
+.xans-board-readpackage [class^='btnEm'] {font-family:"NanumBarunGothic",sans-serif;background-color:#333;color:#fff;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-board-readpackage [class^='btnSubmit']:hover,
+.xans-board-readpackage [class^='btnEm']:hover {background-color:#000;}
+.xans-board-readpackage [class^='btnNormal'] {font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-board-product.ec-base-box.typeProduct {border: 0; border-bottom:2px solid black; margin-bottom:0px !important}
+.xans-board-product .information .price {color:#444;}
+
+/* 게시판 글쓰기 */
+.xans-board-writepackage .ec-base-table table {border:0;margin:0;padding:0;border-collapse:collapse;border-spacing:0;border-top:0px solid #202020;}
+.xans-board-writepackage .ec-base-table table:before {content:none;}
+.xans-board-writepackage .ec-base-table tbody td {border:0;border-bottom:1px solid #dedede;padding:12px 20px;background-color:#fff;font-size:12px;color:#888;}
+.xans-board-writepackage .ec-base-table tbody th {border:0;border-bottom:1px solid #dedede;padding:12px 20px;background-color:#fff;font-size:12px;color:#222;line-height:34px;}
+.xans-board-writepackage .ec-base-table tbody td input {padding:0 10px;height:34px;line-height:34px;border:1px solid #d0d0d0;margin-right:8px;font-size:14px;background-color:#fff;}
+.xans-board-writepackage .ec-base-table tbody td #content_CONTAINER {border:1px solid #dedede;border-top:0;}
+.xans-board-writepackage .ec-base-table tbody td input[type=file] {border:0;}
+.xans-board-writepackage [class^='btnSubmit'] {background-color:#333;color:#fff;font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-board-writepackage [class^='btnSubmit']:hover {background-color:#000;}
+.xans-board-writepackage [class^='btnNormal'] {font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-board-writepackage [class^='btnBasic'] {background-color:#fff;font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-board-writepackage .ec-base-box.typeProduct {border:0; border-bottom:2px solid black;}
+.xans-board-write .information .price {color:#222;}
+.xans-board-write .information .button [class^='btnSubmit'],
+.xans-board-write .information .button [class^='btnEm'] {font-family:"NanumBarunGothic",sans-serif;background-color:#333;color:#fff;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+
+.xans-board-writepackage .ec-base-table > table > tbody > tr > td {border-bottom:2px solid black;}
+.xans-board-writepackage .ec-base-table > table > tbody > tr > th {border-bottom:2px solid black;}
+
+/* 게시판 수정 */
+.xans-board-modifypackage .ec-base-table table {border:0;margin:0;padding:0;border-collapse:collapse;border-spacing:0;border-top:1px solid #202020;}
+.xans-board-modifypackage .ec-base-table table:before {content:none;}
+.xans-board-modifypackage .ec-base-table tbody td {border:0;border-bottom:1px solid #dedede;padding:12px 20px;background-color:#fff;font-size:14px;color:#888;}
+.xans-board-modifypackage .ec-base-table tbody th {border:0;border-bottom:1px solid #dedede;padding:12px 20px;background-color:#fff;font-size:14px;color:#222;line-height:34px;}
+.xans-board-modifypackage .ec-base-table tbody td input {padding:0 10px;height:34px;line-height:34px;border:1px solid #d0d0d0;margin-right:8px;font-size:14px;background-color:#fff;}
+.xans-board-modifypackage .ec-base-table tbody td #content_CONTAINER {border:1px solid #dedede;border-top:0;}
+.xans-board-modifypackage .ec-base-table tbody td input[type=file] {border:0;}
+.xans-board-modifypackage .ec-base-box.typeProduct {border:1px solid #dfdfdf;}
+.xans-board-modifypackage input[type=checkbox]:not(old),
+.xans-board-modifypackage input[type=radio]:not(old){width:18px;opacity:0;}
+.xans-board-modifypackage input[type=checkbox]:not(old) + label,
+.xans-board-modifypackage input[type=radio]:not(old) + label{display:inline-block;margin:0 0 0 -18px;padding:0 0 0 25px;background: url('/morenvyimg/bg_join_check_tiny.png') no-repeat 0 0;line-height:18px;color:#222;}
+.xans-board-modifypackage input[type=checkbox]:not(old):checked + label,
+.xans-board-modifypackage input[type=radio]:not(old):checked + label{background-position:0 -18px;}
+.xans-board-modifypackage [class^='btnEm'] {background-color:#333;color:#fff;font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-board-modifypackage [class^='btnEm']:hover {background-color:#000;}
+.xans-board-modifypackage [class^='btnSubmit'] {background-color:#333;color:#fff;font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-board-modifypackage [class^='btnSubmit']:hover {background-color:#000;}
+.xans-board-modifypackage [class^='btnNormal'] {font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-board-modifypackage [class^='btnBasic'] {background-color:#fff;font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+						   
+.xans-board-modifypackage .ec-base-table > table > tbody > tr > td {border-bottom:2px solid black;}
+.xans-board-modifypackage .ec-base-table > table > tbody > tr > th {border-bottom:2px solid black;}
+/* 관련글 보기 */
+.xans-board-listsgroup h3 {font-size:15px;}
+.xans-board-listsgroup .ec-base-table table {border:0;border-top:1px solid #cfcfcf;border-bottom:1px solid #cfcfcf;}
+.xans-board-listsgroup .ec-base-table.typeList td {padding:10px 0;font-size:12px;color:#333;font-weight:400;}
+.xans-board-listsgroup .ec-base-table.typeList td a:hover {color:#000 !important;}
+.xans-board-listsgroup .ec-base-table.typeList td .txtNum {font-size: 12px;color: #333;}
+.xans-board-listsgroup .ec-base-table thead th { padding:12px 0; border-left: 0; border-bottom: 1px solid #eee; color: #333;font-size:15px; font-weight:400; vertical-align: middle; background: #fff; }
+.xans-board-listsgroup .ec-base-table.gBorder td {border-left:0;}
+
+/* 게시판 댓글 */
+.xans-board-commentwrite {background-color:#fff;border:0;border-top:1px solid #e9e9e9;border-bottom:1px solid #e9e9e9;}
+.xans-board-commentwrite [class^='btnEm'] {background-color:#333;color:#fff;font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-board-commentwrite [class^='btnEm']:hover {background-color:#000;}
+.xans-board-commentpackage [class^='btnNormal'] {font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+
+/* 게시판 검색부분 */
+.xans-board-search {text-align:center;}
+.xans-board-search p {background:none;}
+.xans-board-search p:before {content:'';}
+.xans-board-search [class^='btnEm'] {background-color:#333;color:#fff;font-family:"NanumBarunGothic",sans-serif;padding:5px 10px;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-board-search [class^='btnEm']:hover {background-color:#000;}
+.xans-board-search #search {height:24px;line-height:24px;}
+.xans-board-search select {height:30px;line-height:30px;}
+
+/* 상품게시판 */
+.xans-board-listpackage .ec-base-table.typeList td .product_name {display:block;font-size:12px;color:#999;}
+.xans-board-buttonlist.ec-base-button.typeBG {background:#fff;border:0;padding-right:0;}
+.xans-board-buttonlist.ec-base-button.typeBG a {height:41px;line-height:41px;padding:0;font-size:14px;font-family:"NanumBarunGothic",sans-serif;background-color:black;}
+
+/* 로그인 페이지 */
+.ec-base-box.typeThin {border:0; }
+.xans-member-login .login fieldset {width:500px;padding:0;font-family:"NanumBarunGothic",sans-serif;}
+.xans-member-login .login fieldset > a {position:static;}
+.xans-member-login .login fieldset .id  { overflow:hidden; display:block; width:100%; margin:0 0 21px;border:0; border-bottom:1px solid #e6e6e6; border-radius:0; color:#555; }
+.xans-member-login .login fieldset .password { overflow:hidden; display:block; width:100%; margin:0 0 0;border:0; border-bottom:1px solid #e6e6e6; border-radius:0; color:#555; }
+.xans-member-login .login fieldset input[type=text],
+.xans-member-login .login fieldset input[type=password] { width:100%; height:30px; line-height:30px; padding:6px 0 0 0; border:0 none; color:#555; }
+.xans-member-login .login fieldset .security { padding:0; margin:3px 0px 20px 0;font-size:0; }
+.xans-member-login .login fieldset .security ul {float:right;padding:0;margin:0;}
+.xans-member-login .login fieldset .security ul li {font-size:11px;color:#555;padding:0 5px;}
+.xans-member-login .login fieldset li:after {border:0;}
+.xans-member-login .login fieldset .snsArea {border:0;padding:0 0 20px;}
+.btnLogin_bk {width:75%;height:30px;line-height:30px;font-size:22px;display:block;background-color:#000;color:#fff;text-align:center;border:2px solid black;-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s;  transition: all 0.5s; letter-spacing:2px}
+.btnLogin_bk:hover {background-color:#111;}
+.join_box {margin-top:40px;color:#888;line-height:18px;}
+.btnLogin_wh {width:75%;height:30px;line-height:30px;font-size:22px;display:block;background-color:#fff;color:#000;text-align:center;border:2px solid black;-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s;  transition: all 0.5s;}
+
+
+/* 비회원주문조회 */
+.xans-myshop-orderhistorynologin.ec-base-box.typeThin {padding:0 0 0px 0;}
+.xans-myshop-orderhistorynologin .ec-base-desc {width:380px;}
+.xans-myshop-orderhistorynologin .ec-base-desc dt { width:100%; margin:0;padding:0;}
+.xans-myshop-orderhistorynologin .ec-base-desc dd { padding: 0;margin:0 0 24px 0;}
+.xans-myshop-orderhistorynologin input[type=text],
+.xans-myshop-orderhistorynologin input[type=password] { width:100%; height:30px; line-height:30px;border:0;color:#555;padding:0;border-bottom:1px solid #e6e6e6;}
+.xans-myshop-orderhistorynologin #order_id1,
+.xans-myshop-orderhistorynologin #order_id2 { width:183px; }
+
+
+.xans-member-findid.ec-base-box, 
+.xans-member-findpasswd.ec-base-box{padding:10px 0;}
+/* 아이디 찾기 */
+.xans-member-findid .findId {width:500px;font-family:"NanumBarunGothic",sans-serif;}
+.xans-member-findid .findId strong { display:block; margin:0; padding:0; width:100%; font-weight:normal; padding-bottom:4px;}
+.xans-member-findid .findId .member select { width:100%; height:44px; padding:0 4px; border:2px solid black;}
+.xans-member-findid .findId .check { margin-top:3px; margin-bottom:20px; margin-left:0;}
+.xans-member-findid .findId input[type=text] {padding:0;margin:0px 0 24px 0;height:44px; line-height:44px; color:#555;border:0;border:2px solid black; box-sizing:border-box;}
+.xans-member-findid .findId input[type=password] {padding:0;margin:0px 0 24px 0;height:44px; line-height:44px; color:#555;border:0;border:2px solid black;  box-sizing:border-box;}
+.xans-member-findid .findId .ec-base-button { padding:0px; }
+.xans-member-findid .findId #name,
+.xans-member-findid .findId #email { width:500px; }
+.xans-member-findid .findId #ssn1,
+.xans-member-findid .findId #ssn2 { width:185px; }
+.xans-member-findid .findId #mobile_auth_view { height:auto; }
+.xans-member-findid .findId #mobile1,
+.xans-member-findid .findId #mobile2,
+.xans-member-findid .findId #mobile3 { width:156px; }
+.xans-member-findid .findId .ipin span,
+.xans-member-findid .findId .mobileauth span { display:inline-block; width: 380px; margin:0 0 5px; line-height:18px; color:#757575; }
+.xans-member-findid .findId .ipin a,
+.xans-member-findid .findId .mobileauth a { position:relative; bottom:0; left:0;margin-bottom:5px; }
+.xans-member-findid .findId p {margin-top:0px;}
+.ec-base-desc dd, .ec-base-desc .desc {margin-bottom:0px;line-height: initial !important;}
+/* 아이디 찾기완료 */
+.xans-member-findidresult {font-family:"NanumBarunGothic",sans-serif;}
+.xans-member-findidresult .findId p.info {color:#333;}
+.xans-member-findidresult .findId {width:500px;}
+.xans-member-findidresult .ec-base-box.typeMember.gMessage {border:0;}
+.xans-member-findidresult .ec-base-box .message {background:none;text-align:center;padding:0;border:0;}
+.xans-member-findidresult .ec-base-box.typeMember .information {padding:30px 0;}
+.xans-member-findpasswd .findPw .ec-base-desc dd, .xans-member-findpasswd .findPw .ec-base-desc .desc{line-height:10px !important;}
+/* 비밀번호 찾기 */
+.xans-member-findpasswd .findPw { width:500px;font-family:"NanumBarunGothic",sans-serif; }	 
+.xans-member-findpasswd .findPw strong {  padding-bottom:4px !important; margin-bottom:0px;}
+.xans-member-findpasswd .findPw fieldset { margin:0; }
+.xans-member-findpasswd .findPw .ec-base-desc .desc .check {margin-bottom:20px;}
+.xans-member-findpasswd .findPw .ec-base-desc dt,
+.xans-member-findpasswd .findPw .ec-base-desc .term { padding:0; }
+.xans-member-findpasswd .findPw .ec-base-desc dd,
+.xans-member-findpasswd .findPw .ec-base-desc .desc { padding:0; line-height:18px; }
+.xans-member-findpasswd .findPw .ec-base-desc .term { width:100%; }
+.xans-member-findpasswd .findPw .ec-base-desc .desc { padding-left:0; }
+.xans-member-findpasswd .findPw select { width:100%; height:44px; padding:0 4px; border:2px solid black;}
+.xans-member-findpasswd .findPw input[type=text] {width:100%;padding:0;margin:0px 0 24px 0;height:44px; line-height:44px; color:#555;border:0;border:2px solid black; box-sizing:border-box;}
+.xans-member-findpasswd .findPw input[type=password] {width:100%;padding:0;margin:0px 0 24px 0;height:44px; line-height:44px; color:#555;border:0;border:2px solid black; box-sizing:border-box;}
+.xans-member-findpasswd .findPw .ec-base-button { padding:0; }
+.xans-member-findpasswd .findPw #mobile1,
+.xans-member-findpasswd .findPw #mobile2,
+.xans-member-findpasswd .findPw #mobile3 { width:156px; }
+.xans-member-findpasswd .findPw .ipin a,
+.xans-member-findpasswd .findPw .mobileauth a { position:relative; bottom:0; left:0;margin-bottom:5px; }
+.xans-member-findpasswd .txtInfo {margin-top:-18px;}
+.xans-member-findpasswd .findPw .ec-base-desc li{margin-top:0px;}
+
+/* 임시비밀번호 전송 */
+.xans-member-findpasswdmethod .inner {width:380px;font-family:"NanumBarunGothic",sans-serif;}
+.xans-member-findpasswdmethod .inner .ec-base-desc dt,
+.xans-member-findpasswdmethod .inner .ec-base-desc .term { padding:0 0 10px 0; }
+.xans-member-findpasswdmethod .inner .ec-base-desc dd,
+.xans-member-findpasswdmethod .inner .ec-base-desc .desc { padding:0; line-height:18px;margin-bottom:30px; }
+.xans-member-findpasswdmethod .inner .ec-base-desc .term { width:100%; }
+.xans-member-findpasswdmethod .inner .ec-base-button { padding:10px 0 10px 0; }
+
+/* 비밀번호 완료 */
+.xans-member-findpasswdresult .findPw .desc { margin:0; font-size:16px; color:#333; }
+.xans-member-findpasswdresult .findPw {width:380px;font-family:"NanumBarunGothic",sans-serif;}
+.xans-member-findpasswdresult .ec-base-box.typeMember.gMessage {border:0;}
+.xans-member-findpasswdresult .ec-base-box .message {background:none;text-align:center;padding:0;border:0;}
+.xans-member-findpasswdresult .ec-base-box.typeMember .information {padding:30px 0;}
+.xans-member-findpasswdresult .findPw .copy { margin:0; line-height:160%; color:#888; }
+
+/* 회원가입 영역 스타일 */
+.join_area {overflow:hidden;  border-top:1px solid #dedede;  width:675px; margin:0 auto; padding:30px 0; }
+.join_area .join { float:left; line-height:16px; margin-top:15px; }
+.join_area .join .join_title { margin-bottom:5px; color:#333; font-size:15px; font-weight:600;  }
+.join_area .join_btn { float:right; }
+.join_area .join_btn a { display:block; width:90px; height:83px; text-align:center; background-color:#222; color:#fff; font-size:15px; line-height:83px; font-weight:400;} /*회원가입 버튼색상 */
+
+/* 비회원주문하기 영역 스타일 */
+.nonmember_area {overflow:hidden; border-top:1px solid #dedede;  width:675px;  height:83px; margin:0 auto; padding:30px 0; }
+.nonmember_area .join { float:left; line-height:16px;  margin-top:5px; }
+.nonmember_area .join_title { margin-bottom:5px; color:#333; font-size:15px; font-weight:600;  }
+.nonmember_area .join_btn { float:right; }
+.nonmember_area .join_btn a { display:block; width:90px; height:83px; text-align:center; background-color:#222; color:#fff; font-size:15px; line-height:83px; font-weight:400;}
+
+/* 비회원 주문번호 입력 영역 스타일 */
+.xans-myshop-orderhistorynologin {width:380px;overflow:hidden; margin:0px auto; padding:30px 0; border:1px solid #dedede; border-top:0px;color:#666; font-size:12px;  }
+.xans-myshop-orderhistorynologin .inner { width:675px; margin:0 auto; }
+.xans-myshop-orderhistorynologin .join .join_title { margin-bottom:5px; color:#333; font-size:15px; font-weight:600;}
+.xans-myshop-orderhistorynologin .join  {  line-height:16px; margin-bottom:30px;}
+.xans-myshop-orderhistorynologin ul { float:left;  }
+.xans-myshop-orderhistorynologin li { padding:0px; line-height:28px; padding-bottom:3px;}
+.xans-myshop-orderhistorynologin li strong { display:inline-block; width:110px; font-weight:normal;}
+.xans-myshop-orderhistorynologin li input { width:463px; height:38px; padding:0px; border:1px solid #d9d9d9; color:#202020; }
+.xans-myshop-orderhistorynologin li.number input { width:227px;margin:0 0 0 2px;}
+.xans-myshop-orderhistorynologin li #order_id1 {margin:0 2px 0 0;width:226px;}
+.xans-myshop-orderhistorynologin .join_btn { float:right; display:block; width:90px; height:126px; background-color:#222;color:#fff; font-size:15px;  line-height:17px; font-weight:400; }
+
+/* 장바구니 */
+.orderStep {display:none;}
+.xans-order-dcinfo .description .mileage li strong {color:#333;}
+.xans-order-basketpackage .ec-base-table table {border:0;margin:0;padding:0;border-collapse:collapse;border-spacing:0;border-top:2px solid black;}
+.xans-order-basketpackage .ec-base-table table:before {content:none;}
+.xans-order-basketpackage .ec-base-table.typeList td {padding:0px;font-size:13px;color:#333;font-weight:400;}
+.xans-order-basketpackage .ec-base-table.typeList td .txtNum {font-size: 13px;color: #333;}
+.xans-order-basketpackage .ec-base-table thead th { padding:12px 0; border-left: 0; border-bottom: 1px solid #eee; color: #333;font-size:13px; font-weight:400; vertical-align: middle; background: #fff; }
+.xans-order-basketpackage .orderListArea .title {background:none;border:0;padding:0;}
+.xans-order-basketpackage .ec-base-table.typeList tfoot td {background-color:#fff;border-bottom:1px solid #dfdfdf;}
+.xans-order-basketpackage .ec-base-table td ul.option > li {color:#333;}
+.xans-order-basketpackage .ec-base-table.gBorder td {border-left:0; border-bottom:2px solid black !important;}
+.xans-order-basketpackage [class^='btnEm'] {background-color:black;color:#fff;font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-order-basketpackage [class^='btnEm']:hover {background-color:black;}
+.xans-order-basketpackage [class^='btnSubmit'] {background-color:black;color:#fff;font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-order-basketpackage [class^='btnSubmit']:hover {background-color:black;}
+.xans-order-basketpackage [class^='btnNormal'] {font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+
+/* 전체페이지 탭 */
+.ec-base-tab { position:relative; }
+.ec-base-tab .menu { margin:0 0 20px;border:2px solid #dfdfdf;border-bottom-color:black; border-left:0; background:#fff; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; }
+.ec-base-tab .menu:after { content:""; display:block; clear:both; }
+.ec-base-tab .menu li { float:left; border-left:1px solid #dfdfdf; background:#fff;font-family:"NanumBarunGothic",sans-serif;}
+.ec-base-tab .menu li.selected a {background:#fff;color:#111;margin:0 0 -3px;border:2px solid black; border-bottom:0px;transition: none; top:0px;}
+
+/* 주문내역 페이지 */
+.xans-myshop-orderhistorylistitem .title {margin:80px 0 20px 0;}
+.xans-myshop-orderhistorylistitem .title h3 {font-size:15px;color:#333;font-weight:400;}
+.xans-myshop-orderhistorylistitem.ec-base-table.typeList table {border:0;margin:0;border-top:2px solid black;border-bottom:1px solid #d7d5d5;}
+.xans-myshop-orderhistorylistitem.ec-base-table.typeList thead th {background-color:#fff;border-left:0;padding:12px 0;}
+.xans-myshop-orderhistorylistitem.ec-base-table.typeList td {padding:10px;font-size:13px;color:#333;font-weight:400;}
+.xans-myshop-orderhistorylistitem.ec-base-table.typeList tfoot td {background-color:#fff;}
+
+/* 주문상세조회 페이지 */
+.xans-myshop-orderhistorydetail .title {margin:80px 0 20px 0;}
+.xans-myshop-orderhistorydetail .title h3 {font-size:24px;color:#333;font-weight:400;}
+.xans-myshop-orderhistorydetail .ec-base-table.typeList {border-top:1px solid #202020;}
+.xans-myshop-orderhistorydetail .ec-base-table.typeList table {border:0;margin:0;}
+.xans-myshop-orderhistorydetail .ec-base-table.typeList thead th {background-color:#fff;border-left:0;padding:12px 0;}
+.xans-myshop-orderhistorydetail .ec-base-table.typeList td {padding:15px 10px 14px;}
+.xans-myshop-orderhistorydetail .ec-base-table table {border:0;margin:0;padding:0;border-collapse:collapse;border-spacing:0;border-top:1px solid #202020;}
+.xans-myshop-orderhistorydetail .ec-base-table table:before {content:none;}
+.xans-myshop-orderhistorydetail .ec-base-table tbody td {order:0;border-bottom:1px solid #dedede;padding:12px 0;background-color:#fff !important;font-size:12px;color:#888;font-weight:400 !important;}
+.xans-myshop-orderhistorydetail .ec-base-table tbody th {border:0;border-bottom:1px solid #dedede;padding:12px 0;background-color:#fff !important;font-size:12px;color:#222;font-weight:400 !important;}
+.xans-myshop-orderhistorydetail .ec-base-table tbody th {vertical-align:middle;}
+.xans-myshop-orderhistorydetail .ec-base-table.total table {border:0;margin:0;}
+.xans-myshop-orderhistorydetail .ec-base-table.typeList tfoot td {background-color:#fff;}
+.xans-myshop-orderhistorydetail [class^='btnNormal'] {font-family:"NanumBarunGothic",sans-serif;}
+.xans-myshop-orderhistorydetail [class^='btnSubmit'] {background-color:#333;color:#fff;font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-myshop-orderhistorydetail [class^='btnSubmit']:hover {background-color:#000;}
+
+/* 상품 교환, 취소페이지 */
+.xans-myshop-orderhistoryapplycancel .title,
+.xans-myshop-orderhistoryapplyexchange .title {margin:80px 0 20px 0;}
+.xans-myshop-orderhistoryapplycancel .title h3,
+.xans-myshop-orderhistoryapplyexchange .title h3 {font-size:24px;color:#333;font-weight:400;}
+.xans-myshop-orderhistoryapplycancel .ec-base-table.typeList table,
+.xans-myshop-orderhistoryapplyexchange .ec-base-table.typeList table {border:0;margin:0;border-top:1px solid #202020;}
+.xans-myshop-orderhistoryapplycancel .ec-base-table.typeList thead th,
+.xans-myshop-orderhistoryapplyexchange .ec-base-table.typeList thead th {background-color:#fff;border-left:0;padding:12px 0;}
+.xans-myshop-orderhistoryapplycancel .ec-base-table.typeList td,
+.xans-myshop-orderhistoryapplyexchange .ec-base-table.typeList td {padding:15px 10px 14px;}
+.xans-myshop-orderhistoryapplyexchange .ec-base-table table {border:0;margin:0;padding:0;border-collapse:collapse;border-spacing:0;border-top:1px solid #202020;}
+.xans-myshop-orderhistoryapplyexchange .ec-base-table table:before {content:none;}
+.xans-myshop-orderhistoryapplyexchange .ec-base-table tbody td {border:0;border-bottom:1px solid #dedede;padding:12px 0;background-color:#fff;font-size:12px;color:#888;}
+.xans-myshop-orderhistoryapplyexchange .ec-base-table tbody th {border:0;border-bottom:1px solid #dedede;padding:12px 0;background-color:#fff;font-size:12px;color:#222;}
+.xans-myshop-orderhistoryapplyexchange .ec-base-table tbody th {vertical-align:middle;}
+.xans-myshop-orderhistoryapplyexchange .ec-base-table select {border:1px solid #d0d0d0;height:36px;line-height:36px;width:243px;}
+.xans-myshop-orderhistoryapplyexchange [class^='btnNormal'] {font-family:"NanumBarunGothic",sans-serif;}
+.xans-myshop-orderhistoryapplyexchange [class^='btnSubmit'] {background-color:#333;color:#fff;font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-myshop-orderhistoryapplyexchange [class^='btnSubmit']:hover {background-color:#000;}
+.xans-myshop-orderhistoryapplyexchange .action_modify {padding:2px 12px;}
+
+.xans-myshop-orderhistoryapplycancel .ec-base-table table {border:0;margin:0;padding:0;border-collapse:collapse;border-spacing:0;border-top:1px solid #202020;}
+.xans-myshop-orderhistoryapplycancel .ec-base-table table:before {content:none;}
+.xans-myshop-orderhistoryapplycancel .ec-base-table tbody td {border:0;border-bottom:1px solid #dedede;padding:12px 0;background-color:#fff;font-size:12px;color:#888;}
+.xans-myshop-orderhistoryapplycancel .ec-base-table tbody th {border:0;border-bottom:1px solid #dedede;padding:12px 0;background-color:#fff;font-size:12px;color:#222;}
+.xans-myshop-orderhistoryapplycancel .ec-base-table tbody th {vertical-align:middle;}
+.xans-myshop-orderhistoryapplycancel .ec-base-table select {border:1px solid #d0d0d0;height:36px;line-height:36px;width:243px;}
+.xans-myshop-orderhistoryapplycancel [class^='btnNormal'] {font-family:"NanumBarunGothic",sans-serif;}
+.xans-myshop-orderhistoryapplycancel [class^='btnSubmit'] {background-color:#333;color:#fff;font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-myshop-orderhistoryapplycancel [class^='btnSubmit']:hover {background-color:#000;}
+
+/* 주문페이지 */
+.xans-order-form .controlInfo {background:#fff;padding:0 0 10px 0;border:0;margin-top:20px;}
+.xans-order-form .controlInfo li {margin:0;background-position:0 0;}
+.xans-order-form .ec-base-table td div.option {color:#333;}
+.xans-order-form .orderListArea {border-top:0;border-bottom:1px solid #dadada;}
+.xans-order-form .orderListArea .title {border:0;border-bottom:1px solid #dadada;background-color:#fff;}
+.xans-order-form .orderListArea .title h3 {font-size:12px;}
+.xans-order-form .orderListArea .ec-base-table.typeList table {border:0;margin:0;}
+.xans-order-form .orderListArea .ec-base-table.typeList thead th {background-color:#fff;border-left:0;padding:12px 0;}
+.xans-order-form .orderListArea .ec-base-table.typeList td {padding:10px;font-size:13px;color:#333;font-weight:400;}
+.xans-order-form .orderListArea .ec-base-table.typeList tfoot td {background-color:#fff;}
+.xans-order-form > .ec-base-button {border:0;padding:10px 0;}
+.xans-order-form .ec-base-table.gBorder td {border-left:0;}
+.xans-order-form .ec-base-table table {border:0;margin:0;padding:0;border-collapse:collapse;border-spacing:0;}
+.xans-order-form .ec-base-table table:before {content:none;}
+.xans-order-form .ec-base-table tbody td {border:0;border-bottom:1px solid black;padding:12px 0;background-color:#fff;font-size:12px;color:#888;line-height:24px;border-top: 1px solid black;}
+.xans-order-form .ec-base-table tbody th {border:0;border-bottom:1px solid black;padding:12px 0;background-color:#fff;font-size:12px;color:#222;line-height:24px; border-top: 1px solid black;;}
+.xans-order-form .ec-base-table tbody th {vertical-align:middle;}
+.xans-order-form .ec-base-table tbody td input {padding:0 10px;height:34px;line-height:34px;border:1px solid black;margin-right:8px;}
+.xans-order-form .ec-base-table .error {color:#f00;}
+.xans-order-form .title {margin:80px 0 20px 0;}
+.xans-order-form .title h3 {font-size:20px;color:#333;font-weight:400; font-family:"NanumBarunGothic",sans-serif;}
+.xans-order-form #btn_search_rzipcode {border:1px solid black;color:#222;width:94px;height:36px;text-align:center;padding:0;line-height:34px;font-family:"NanumBarunGothic",sans-serif;font-size:14px;}
+.xans-order-form .text_vertical {margin-top:10px;display:inline-block;vertical-align:middle;}
+.xans-order-form #name, .xans-order-form #user_passwd_confirm, .xans-order-form #passwd, .xans-order-form #member_id {width:160px;}
+.xans-order-form #postcode1, .xans-order-form #postcode2 {width:90px;}
+.xans-order-form #addr1, .xans-order-form #addr2 {width:480px;margin:10px 8px 0 0;}
+.xans-order-form #rphone1_2, .xans-order-form #rphone1_3, .xans-order-form #rphone2_2, .xans-order-form #rphone2_3 {width:80px;margin:0 7px;}
+.xans-order-form #rphone1_1, .xans-order-form #rphone2_1 {width:102px;height:36px;line-height:34px;font-family:"NanumBarunGothic",sans-serif;font-size:14px;border:1px solid black;margin-right:7px;}
+.xans-order-form #oemail1 {width:185px;margin-right:7px;}
+.xans-order-form #oemail2 {width:185px;margin:0 7px;}
+.xans-order-form #oemail3 {width:185px;height:36px;line-height:34px;font-family:"NanumBarunGothic",sans-serif;font-size:14px;border:1px solid black;margin-left:7px;}
+.xans-order-form .ec-base-table.typeWrite td .address {margin-left:-26px;}
+.xans-order-form [class^='btnNormal'] {font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-order-form input[type=text],
+.xans-order-form input[type=password] {font-size:14px;}
+.xans-order-form .totalArea .ec-base-table.total th {background-color:#fff;color:#333;border-left:0;font-size:13px;}
+.xans-order-form .totalArea .ec-base-table tr.sum td {background-color:#fff;color:#333;}
+.xans-order-form .totalArea .ec-base-table tr.sum td strong {font-weight:400;}
+.xans-order-form .payArea {border:2px solid black;}
+.xans-order-form .payArea:after{width:2px; background:black;}
+.xans-order-form .payArea .total {background:#fff;}
+.xans-order-form .payArea .total .price {color:#111;}
+.xans-order-form .payArea .total .price input#total_price {background:#fff;color:#111;}
+.xans-order-form .payArea .total .ec-base-button{margin:0px; padding:0px}
+.xans-order-form .payArea .total .ec-base-button #btn_payment {margin:0px; padding:22px; width:100%;max-width:100%;background-color:#222;border:0;font-size:22px;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-order-form .payArea .total .ec-base-button #btn_payment:hover {background-color:#111;}
+.xans-order-form .payArea .method{border-bottom:1px solid black;}
+.xans-order-form .ec-base-table thead th{border-bottom:1px solid black;border-top:1px solid black;}
+.xans-order-form .ec-base-table tbody td{border-bottom:1px solid black;}
+.ec-base-table.typeList.gBorder tbody td{border-color: black;}
+.xans-order-form .payArea .payment > .ec-base-table{padding:0px;}
+/* 주문완료 페이지 */
+.xans-order-result .title {margin:80px 0 20px 0;}
+.xans-order-result .title h3 {font-size:24px;color:#333;font-weight:400;}
+.xans-order-result .orderListArea {border-top:0;border-bottom:1px solid #dadada;}
+.xans-order-result .orderListArea .title {border:0;border-bottom:1px solid #dadada;background-color:#fff;margin:50px 0 0 0;padding-bottom:20px;}
+.xans-order-result .orderListArea .title h3 {font-size:24px;color:#333;font-weight:400;}
+.xans-order-result .orderListArea .ec-base-table.typeList table {border:0;margin:0;}
+.xans-order-result .orderListArea .ec-base-table.typeList thead th {background-color:#fff;border-left:0;padding:12px 0;}
+.xans-order-result .orderListArea .ec-base-table.typeList td {padding:10px;font-size:13px;color:#333;font-weight:400;}
+.xans-order-result .orderListArea .ec-base-table.typeList tfoot td {background-color:#fff;}
+.xans-order-result > .ec-base-button {border:0;padding:10px 0;}
+.xans-order-result .ec-base-table.gBorder td {border-left:0;}
+.xans-order-result .ec-base-table table {border:0;margin:0;padding:0;border-collapse:collapse;border-spacing:0;border-top:1px solid #202020;}
+.xans-order-result .ec-base-table table:before {content:none;}
+.xans-order-result .ec-base-table tbody td {border:0;border-bottom:1px solid #dedede;padding:12px 0;background-color:#fff;font-size:14px;color:#888;line-height:24px;}
+.xans-order-result .ec-base-table tbody th {border:0;border-bottom:1px solid #dedede;padding:12px 0;background-color:#fff;font-size:14px;color:#222;line-height:24px;}
+.xans-order-result .ec-base-table tbody th {vertical-align:middle;}
+.xans-order-result .ec-base-table tbody td input {padding:0 10px;height:34px;line-height:34px;border:1px solid #d0d0d0;margin-right:8px;}
+.xans-order-result .totalArea .ec-base-table.total th {background-color:#fff;color:#333;border-left:0;font-size:13px;}
+.xans-order-result .totalArea .ec-base-table tr.sum td {background-color:#fff;color:#333;}
+.xans-order-result .totalArea .ec-base-table tr.sum td strong {font-weight:400;}
+.xans-order-result .totalArea .ec-base-table.total td .box {color:#333;}
+.xans-order-result [class^='btnSubmitFix'] {background-color:#333;color:#fff;font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-order-result [class^='btnSubmitFix']:hover {background-color:#000;}
+.xans-order-result [class^='btnNormal'] {font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-order-result .orderInfo {text-align:center;padding:0;background:none;}
+.xans-order-result .orderInfo p a {color:#222;}
+
+/* 이용안내 */
+.xans-mall-faq .ec-base-tab .menu li a {background:#fff;}
+.xans-mall-faq .ec-base-tab[class*="grid"] .menu li.selected {background-color:#fff;t1op:-1px;}
+.xans-mall-faq .ec-base-tab .menu li.selected a {background:#fff;color:#111;margin:0 0 -3px;border-bottom:1px solid #fff;}
+
+/* 관심상품 페이지 */
+.xans-myshop-wishlist .title {margin:80px 0 20px 0;}
+.xans-myshop-wishlist .title h3 {font-size:24px;color:#333;font-weight:400;}
+.xans-myshop-wishlist.ec-base-table.typeList table {border:0;margin:0;border-top:1px solid #202020;border-bottom:1px solid #d7d5d5;}
+.xans-myshop-wishlist.ec-base-table.typeList thead th {background-color:#fff;border-left:0;padding:12px 0;}
+.xans-myshop-wishlist.ec-base-table.typeList td {padding:10px;font-size:13px;color:#333;font-weight:400;}
+.xans-myshop-wishlist.ec-base-table.typeList tfoot td {background-color:#fff;}
+.xans-myshop-wishlist [class^='btnEm'] {background-color:#333;color:#fff;font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-myshop-wishlist [class^='btnEm']:hover {background-color:#000;}
+.xans-myshop-wishlist [class^='btnSubmit'] {background-color:#333;color:#fff;font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-myshop-wishlist [class^='btnSubmit']:hover {background-color:#000;}
+.xans-myshop-wishlist [class^='btnNormal'] {font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-myshop-wishlistbutton [class^='btnEm'] {background-color:#333;color:#fff;font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-myshop-wishlistbutton [class^='btnEm']:hover {background-color:#000;}
+.xans-myshop-wishlistbutton [class^='btnSubmit'] {background-color:#333;color:#fff;font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-myshop-wishlistbutton [class^='btnSubmit']:hover {background-color:#000;}
+.xans-myshop-wishlistbutton [class^='btnNormal'] {font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+
+/* 쿠폰 페이지 */
+.xans-myshop-couponlist .ec-base-table.typeList table {border:0;margin:0;border-top:1px solid #202020;border-bottom:1px solid #d7d5d5;}
+.xans-myshop-couponlist .ec-base-table.typeList thead th {background-color:#fff;border-left:0;padding:12px 0;}
+.xans-myshop-couponlist .ec-base-table.typeList td {padding:10px;font-size:13px;color:#333;font-weight:400;}
+.xans-myshop-couponlist .ec-base-table.typeList tfoot td {background-color:#fff;}
+.xans-myshop-couponserial [class^='btnSubmit'] {background-color:#333;color:#fff;font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-myshop-couponserial [class^='btnSubmit']:hover {background-color:#000;}
+
+/* 내게시물관리 페이지 */
+.xans-myshop-boardpackage .ec-base-table table {border:0;border-top:1px solid #cfcfcf;border-bottom:1px solid #cfcfcf;}
+.xans-myshop-boardpackage .ec-base-table.typeList td {padding:10px 0;font-size:13px;color:#333;font-weight:400;}
+.xans-myshop-boardpackage .ec-base-table.typeList td a:hover {color:#000 !important;}
+.xans-myshop-boardpackage .ec-base-table.typeList td .txtNum {font-size:12px;color: #333;}
+.xans-myshop-boardpackage .ec-base-table thead th { padding:12px 0; border-left: 0; border-bottom: 1px solid #eee; color: #333;font-size:13px; font-weight:400; vertical-align: middle; background: #fff; }
+.xans-myshop-boardpackage .ec-base-table.gBorder td {border-left:0;}
+
+/* 내게시물관리 검색부분 */
+.xans-myshop-boardlistsearch {text-align:center;}
+.xans-myshop-boardlistsearch p {background:none;}
+.xans-myshop-boardlistsearch p:before {content:'';}
+.xans-myshop-boardlistsearch [class^='btnEm'] {background-color:#333;color:#fff;font-family:"NanumBarunGothic",sans-serif;padding:5px 10px;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-myshop-boardlistsearch [class^='btnEm']:hover {background-color:#000;}
+.xans-myshop-boardlistsearch #search {height:24px;line-height:24px;}
+.xans-myshop-boardlistsearch select {height:32px;line-height:32px;}
+.xans-myshop-boardlisthead select{height:32px;line-height:32px; border:2px solid black;}
+
+/* 배송주소록관리 페이지 */
+.xans-myshop-addrlist .ec-base-table.typeList table {border:0;margin:0;border-top:1px solid #202020;border-bottom:1px solid #d7d5d5;}
+.xans-myshop-addrlist .ec-base-table.typeList thead th {background-color:#fff;border-left:0;padding:12px 0; border-top:2px solid black !important;}
+.xans-myshop-addrlist .ec-base-table.typeList td {padding:10px;font-size:13px;color:#333;font-weight:400;}
+.xans-myshop-addrlist .ec-base-table.typeList tfoot td {background-color:#fff;}
+.xans-myshop-addrlist [class^='btnEm'] {background-color:#333;color:#fff;font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-myshop-addrlist [class^='btnEm']:hover {background-color:#000;}
+.xans-myshop-addrlist [class^='btnSubmit'] {background-color:#333;color:#fff;font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-myshop-addrlist [class^='btnSubmit']:hover {background-color:#000;}
+.xans-myshop-addrlist [class^='btnNormal'] {font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+
+/* 배송주소록 등록 페이지 */
+.xans-myshop-addrregister .ec-base-table table {border:0;margin:0;padding:0;border-collapse:collapse;border-spacing:0;border-top:2px solid black;}
+.xans-myshop-addrregister .ec-base-table table:before {content:none;}
+.xans-myshop-addrregister .ec-base-table tbody td {border:0;border-bottom:1px solid #dedede;padding:12px 0;background-color:#fff;font-size:14px;color:#888;}
+.xans-myshop-addrregister .ec-base-table tbody th {border:0;border-bottom:1px solid #dedede;padding:12px 0;background-color:#fff;font-size:14px;color:#222;line-height:34px;}
+.xans-myshop-addrregister .ec-base-table tbody td input {padding:0 10px;height:34px;line-height:34px;border:1px solid #d0d0d0;margin-right:8px;font-size:14px;background-color:#fff;}
+.xans-myshop-addrregister .ec-base-table tbody td #content_CONTAINER {border:1px solid #dedede;border-top:0;}
+.xans-myshop-addrregister .ec-base-table tbody td input[type=file] {border:0;}
+.xans-myshop-addrregister [class^='btnSubmit'] {background-color:#333;color:#fff;font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-myshop-addrregister [class^='btnSubmit']:hover {background-color:#000;}
+.xans-myshop-addrregister [class^='btnNormal'] {font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-myshop-addrregister [class^='btnBasic'] {background-color:#fff;font-family:"NanumBarunGothic",sans-serif;-webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+.xans-myshop-addrregister .ec-base-box.typeProduct {border:1px solid #dfdfdf;}
+.xans-myshop-addrregister #ma_rcv_phone1, .xans-myshop-addrregister #ma_rcv_mobile_no1 {width:102px;height:36px;line-height:34px;font-size:14px;border:1px solid #d0d0d0;margin-right:7px;}
+
+/* 적립금 페이지 */
+.xans-myshop-historylist .ec-base-table.typeList table {border:0;margin:0;border-top:1px solid #202020;border-bottom:1px solid #d7d5d5;}
+.xans-myshop-historylist .ec-base-table.typeList thead th {background-color:#fff;border-left:0;padding:12px 0;}
+.xans-myshop-historylist .ec-base-table.typeList td {padding:10px;font-size:13px;color:#333;font-weight:400;}
+.xans-myshop-historylist .ec-base-table.typeList tfoot td {background-color:#fff;}
+  
+/* 예치금 페이지 */
+.xans-myshop-deposithistorylist .ec-base-table.typeList table {border:0;margin:0;border-top:1px solid #202020;border-bottom:1px solid #d7d5d5;}
+.xans-myshop-deposithistorylist .ec-base-table.typeList thead th {background-color:#fff;border-left:0;padding:12px 0;}
+.xans-myshop-deposithistorylist .ec-base-table.typeList td {padding:10px;font-size:13px;color:#333;font-weight:400;}
+.xans-myshop-deposithistorylist .ec-base-table.typeList tfoot td {background-color:#fff;}

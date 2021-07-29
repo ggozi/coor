@@ -1,0 +1,35 @@
+.top_logom{display:none;}
+._inner{width:1340px; margin:0 auto;} 
+
+@media all and (max-width: 1799.98px) {
+
+
+}/* 미디어쿼리 1800 끝 */
+
+@media all and (max-width: 1599.98px) {
+
+
+}/* 미디어쿼리 1600 끝 */
+
+
+@media all and (max-width: 1339.98px) {
+	
+}/* 미디어쿼리 1200 끝 */
+
+@media all and (max-width: 1099.98px) {
+	
+}
+
+@media all and (max-width: 991.98px) {
+	
+}/* 미디어쿼리 992 끝 */
+
+@media all and (max-width: 767.98px) {
+	
+}/* 미디어쿼리 768 끝 */
+
+@media all and (max-width: 575.98px) {
+
+}/* 미디어쿼리 576 끝 */
+
+

@@ -1,0 +1,154 @@
+@charset "utf-8";
+#wrap { position:relative;width:100%;margin:0 auto;min-height:550px;}
+body {min-width:100%;-webkit-font-smoothing: antialiased;}
+#container { width:100%; zoom:1; position:relative;margin:0 auto;}
+#container:after {content:""; display:block; clear:both; }
+#container #contents {width:1340px;max-width:100%;margin:0 auto;float:none;}
+#container #contents.blackline {width:100% !important; border-top: 2px solid black; border-bottom: 2px solid black; padding-bottom: 180px;}
+#header .inner, #footer .inner, #container, body.center .centerCategory .wyGrid, body.center .promotionArea .wyGrid {padding:0;}
+html { overflow-y:scroll; } /* 세로스크롤을 항상 표시해주므로 가로폭의 변화를 주지 않게하여 중앙정렬위치를 고정 */
+.maxwidth80 {max-width:80% !important;margin:0 auto;}
+
+/* 점선없애기 */
+a:hover {text-decoration:none;}
+a:focus {outline:none;}
+a {blr:expression(this.onFocus=this.blur());}
+area:focus {outline:none;}
+area {blr:expression(this.onFocus=this.blur());}
+input:focus, img:focus, embed:focus, map:focus {outline:none;}
+
+.cboth {clear:both;*zoom:1}
+.cboth:after {content:" ";display:block;clear:both;}
+.fleft {float:left;}
+.fright {float:right;}
+.center {text-align: center; }
+.displaynone {display:none;}
+.relative {position:relative;}
+.border0 {border:0 !important;}
+.widthcenter {max-width:1730px;margin:0 auto !important;}
+
+.pdt0 {padding-top:0px !important;}
+.pdt5 {padding-top:5px;}
+.pdt10 {padding-top:10px;}
+.pdt15 {padding-top:15px;}
+.pdt20 {padding-top:20px;}
+.pdt30 {padding-top:30px;}
+.pdt40 {padding-top:40px;}
+.pdt50 {padding-top:50px;}
+.pdt55 {padding-top:55px;}
+.pdt60 {padding-top:60px;}
+.pdt70 {padding-top:70px;}
+.pdt80 {padding-top:80px !important;}
+.pdt90 {padding-top:90px;}
+.pdt100 {padding-top:100px;}
+.pdl60 {padding-left:60px;}
+.pdl66 {padding-left:66px;}
+.pdl80 {padding-left:80px;}
+.pdl104 {padding-left:104px;}
+.mrt80 {margin-top:80px;} 
+
+.pdb5 {padding-bottom:5px;}
+.pdb10 {padding-bottom:10px;}
+.pdb15 {padding-bottom:15px;}
+.pdb30 {padding-bottom:30px;}
+.pdb50 {padding-bottom:50px;}
+.w12p {width:12%;}
+.w20p {width:20%;}
+.w80p {width:80%;}
+.w88p {width:88%;}
+
+/* 롤오버 */
+a img.menuon {display:none;}
+a img.menuoff {display:inline;}
+a:hover img.menuon {display:inline;}
+a:hover img.menuoff {display:none;}
+
+/*input, select, textarea, body, code {font-family:'Nanum Gothic','Montserrat',Verdana,Dotum,AppleGothic,sans-serif;}*/
+a,
+a:hover {text-decoration:none;-webkit-transition: .2s ease-in-out; transition: .2s ease-in-out; -webkit-backface-visibility: hidden;}
+
+
+#footer {margin: 0 !important; border:0px !important}
+.xans-layout-footer {float:none !important; width:auto !important; height:auto !important;}
+.fade-in-box {
+    display: inline-block;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+  }
+  @keyframes fadein {
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  @-moz-keyframes fadein { /* Firefox */
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  @-webkit-keyframes fadein { /* Safari and Chrome */
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  @-o-keyframes fadein { /* Opera */
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+
+  .fade-out-box {
+    display: inline-block;
+    background: yellow;
+    padding: 10px;
+    animation: fadeout 1s;
+    -moz-animation: fadeout 1s; /* Firefox */
+    -webkit-animation: fadeout 1s; /* Safari and Chrome */
+    -o-animation: fadeout 1s; /* Opera */
+    animation-fill-mode: forwards;
+  }
+  @keyframes fadeout {
+      from {
+          opacity: 1;
+      }
+      to {
+          opacity: 0;
+      }
+  }
+  @-moz-keyframes fadeout { /* Firefox */
+      from {
+          opacity: 1;
+      }
+      to {
+          opacity: 0;
+      }
+  }
+  @-webkit-keyframes fadeout { /* Safari and Chrome */
+      from {
+          opacity: 1;
+      }
+      to {
+          opacity: 0;
+      }
+  }
+  @-o-keyframes fadeout { /* Opera */
+      from {
+          opacity: 1;
+      }
+      to {
+          opacity: 0;
+      }
+  }

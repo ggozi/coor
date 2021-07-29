@@ -1,0 +1,87 @@
+<div id="footer">
+    <div module="Layout_footer">
+        <!--@css(/css/module/layout/footer.css)-->
+        <!-- <ul class="utilMenu">
+            <li class="home"><a href="/index.html">홈</a></li>
+            <li><a href="/shopinfo/company.html">회사소개</a></li>
+            <li><a href="/member/agreement.html">이용약관</a></li>
+            <li><a href="/member/privacy.html"><strong>개인정보처리방침</strong></a></li>
+            <li><a href="/shopinfo/guide.html">이용안내</a></li>
+        </ul> -->
+        <ul class="footer_txt">
+            <li class="address1">
+                <p>{$president_name}<br />{$mall_addr1} {$mall_addr2}</p>
+                <p>Sevice Center <br />{$phone}</p>
+                <p>Working Hours<br />AM 11:00 - PM 5:00<br>(lunch break PM 12:00 - PM 1:00)</p>
+                <p>사업자 등록 번호 : {$company_regno}<br>통신판매번호 : {$network_regno}</p>
+            </li>
+            <li class="sns">
+                <p><a href="mailto:{$email}">{$email}</a></p>
+                <p class="instagram"><a href="https://www.instagram.com/coor_official/" target="_blank">instagram</a></p>
+            </li>
+            <li class="last">
+                <p class="copyright">Copyright &copy; 2018 <strong>{$mall_name}</strong>. All Rights Reserved.</p>
+            </li>
+        </ul>
+        <div class="footer_logo"><a href="#"><img src="/add/img/logo.svg" alt=""></a></div>
+    </div>
+</div>
+
+<!-- 결제를 위한 필수 영역 -->
+<div id="progressPaybar" style="display:none;">
+    <div id="progressPaybarBackground" class="layerProgress"></div>
+    <div id="progressPaybarView">
+        <div class="box">
+            <p class="graph">
+                <span><img src="//img.echosting.cafe24.com/skin/base_ko_KR/layout/txt_progress.gif" alt="현재 결제가 진행중입니다." /></span>
+                <span><img src="//img.echosting.cafe24.com/skin/base/layout/img_loading.gif" alt="" /></span>
+            </p>
+            <p class="txt">
+                본 결제 창은 결제완료 후 자동으로 닫히며,결제 진행 중에 본 결제 창을 닫으시면<br />
+                주문이 되지 않으니 결제 완료 될 때 까지 닫지 마시기 바랍니다.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- // 결제를 위한 필수 영역 -->
+<!--@css(/add/__common.css)-->
+<!--@css(/add/__css.css)-->
+<!--@css(/add/__media.css)-->
+
+<div module="Layout_multishopShipping">
+    <!--@css(/layout/basic/css/ec-base-layer.css)-->
+    <!--@css(/css/module/layout/multishopShipping.css)-->
+    <!--@js(/js/module/layout/multishopShipping.js)-->
+    <div class="dimmed"></div>
+    <div class="worldshipLayer ec-base-layer">
+        <div class="header">
+            <h3>WORLD SHIPPING</h3>
+        </div>
+        <div class="content">
+            <p class="desc">PLEASE SELECT THE DESTINATION COUNTRY AND LANGUAGE :</p>
+            <div class="select">
+                <select module="Layout_multishopShippingCountrylist">
+                    <option value="{$country_code}"{$country_default_selected}>SHIPPING TO : {$country_name}</option>
+                    <option value="{$country_code}"{$country_default_selected}>SHIPPING TO : {$country_name}</option>
+                </select>
+            </div>
+            <div class="select">
+                <select module="Layout_multishopShippingLanguagelist">
+                    <option value="{$shop_domain}"{$shop_default_selected}>LANGUAGE : {$shop_language_name}</option>
+                    <option value="{$shop_domain}"{$shop_default_selected}>LANGUAGE : {$shop_language_name}</option>
+                </select>
+            </div>
+        </div>
+        <div class="ec-base-button">
+            <a href="#none"><img src="//img.echosting.cafe24.com/skin/base_ko_KR/link/btn_go.gif" alt="GO" /></a>
+        </div>
+        <a href="#none" class="close"><img src="//img.echosting.cafe24.com/skin/base/common/btn_close.gif" width="13" height="13" alt="close" /></a>
+    </div>
+</div>
+
+<div module="Layout_conversionPc">
+    <!--@css(/css/module/layout/conversionpc.css)-->
+    <a href="{$mobile_url}">모바일 화면보기</a>
+</div>
+</body>
+</html>

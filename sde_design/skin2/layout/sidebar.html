@@ -1,0 +1,57 @@
+<!--@css(/layout/sidebar.css)-->
+        <div class="gridContainer" style="display: grid;grid-template-columns: repeat(4,1fr);">
+<div class="gridItem" data-component-id="1136" id="grid_id_1576631555825_1" style="grid-area: 1 / 1 / 5 / 5;min-width: 0;">
+    <div class="dnd_module_4dce73e24b427f8d7f0c78dde741648e">
+<!-- MOMA COMPONENT ID 1136 -->
+<div class="LtopMenu">
+    <ul module="Layout_stateLogon" class="loginUl">
+        <li><a href="{$action_logout}">LOGOUT</a></li>
+        <li> / </li>
+        <li><a href="/member/modify.html" >MODIFY</a></li>
+    </ul>
+    <ul module="Layout_stateLogoff" class="loginUl">
+        <li><a href="/member/login.html">LOGIN</a></li>
+        <li> / </li>
+        <li><a href="/member/agreement.html">SIGN UP</a></li>
+    </ul>
+    <ul class="info">
+        <li class="myshop"><a href="/myshop/index.html">MY PAGE</a></li>
+        <li  module="Layout_orderBasketcount" class="cart"><a href="/order/basket.html">BAG( <span class="count {$basket_count_display_class}"><span class="{$basket_count_class}">{$basket_count}</span></span> )</a></li>
+        <li class="order"><a href="/myshop/order/list.html">ORDER</a></li>
+    </ul>
+</div>
+<!-- // MOMA COMPONENT ID 1136 -->
+</div>
+</div>
+<div class="gridItem" data-component-id="1063" id="grid_id_1592990947645_2" style="grid-area: 5 / 1 / 8 / 5;min-width: 0;">
+    <div class="dnd_module_6ba27f167d7e70bd7e89b73655af2038">
+<!-- MOMA COMPONENT 1063 -->
+<div class="inner" module="Layout_category">
+    <ul class="category">
+        <li id="cate{$cate_no}">
+            <a href="#none" class="cate link" cate="{$param}">{$name}</a>
+            <a href="{$link_product_list}" class="view">ALL VIEW</a>
+        </li>
+        <li id="cate{$cate_no}">
+            <a href="#none" class="cate link" cate="{$param}">{$name}</a>
+            <a href="{$link_product_list}" class="view">ALL VIEW</a>
+        </li>
+    </ul>    
+</div>
+<!-- // MOMA COMPONENT 1063 -->
+</div>
+</div>
+<div class="gridItem" data-component-id="1060" id="grid_id_1576631599611_2" style="grid-area: 8 / 1 / 13 / 5;min-width: 0;">
+    <div class="dnd_module_9e9b6fb31f9af0c629b598a9319239e9">
+<!-- MOMA COMPONENT 1060 -->
+<div module="Layout_BoardInfo" class="board_info">
+    <ul>
+        <li><a href="{$link_board_list}">{$board_name}</a> {$board_adult_icon}</li>
+        <li><a href="{$link_board_list}">{$board_name}</a> {$board_adult_icon}</li>
+    </ul>
+</div>
+<!-- // MOMA COMPONENT 1060 -->
+</div>
+</div>
+        </div>
+<!--@js(/layout/sidebar.js)-->
