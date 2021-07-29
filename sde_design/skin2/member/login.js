@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if ($('.xans-member-login').val() != undefined) {
         var loginId = $('#member_id').parent().attr('title');
         $('#member_id').attr('placeholder', loginId);
-        $('#member_passwd').attr('placeholder', '패스워드');
+        $('#member_passwd').attr('placeholder', 'PASSWORD');
     }
     if ($('.xans-myshop-orderhistorynologin').val() != undefined) {
         $('#order_name').attr('placeholder', '주문자명');

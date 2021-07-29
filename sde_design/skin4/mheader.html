@@ -68,7 +68,7 @@
 					</div>
 					<div class="right">
 						<!-- as-is 검색기능없음 <a href="#" class="btn_search"></a> -->
-						<a href="#" class="btn_basket"></a>
+						<a href="/order/basket.html" class="btn_basket"></a>
 					</div>
 				</div>
 				<div class="top_logo">
@@ -109,15 +109,13 @@
 							<ul>
 								<li><a href="/product/list.html?cate_no=26">Review</a></li>
 								<li><a href="/product/list.html?cate_no=26">Q & A</a></li>
-								<li><a href="/product/list.html?cate_no=26">Notice</a></li>
+								<li><a href="/board/free/list.html?board_no=1">Notice</a></li>
 							</ul>	
 						</div>
 					</li>
-					<li><a href="/studio/video.html" data-selectside="studio">help</a>
-					</li>
-					
+					<li><a href="/studio/video.html" data-selectside="studio">help</a></li>					
 					<li module="Layout_statelogoff"><a href="/member/login.html" data-selectside="login">login</a></li>
-					<li module="Layout_statelogoff"><a href="/member/join.html" data-selectside="join">join</a></li>
+					<!-- <li module="Layout_statelogoff"><a href="/member/join.html" data-selectside="join">join</a></li> -->
 					<li module="Layout_stateLogon"><a href="{$action_logout}">logout</a></li>
 					<li module="Layout_stateLogon"><a href="/myshop/index.html" data-selectside="myinfo">mypage</a></li>
 					<li><a href="/order/basket.html" data-selectside="cart">cart<span module="Layout_orderBasketcount">({$basket_count})</span></li>
