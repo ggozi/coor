@@ -159,6 +159,14 @@ body,html{font-family:'Moderat';}
     .footer_logo a{padding:43px 15px 74px;}
 }
 
+@media all and (max-width:900px){
+    .ec-base-product{margin:0 9px !important;}
+    .ec-base-product .prdList{min-width:auto;margin-top:98px;}
+    .ec-base-product ul.grid4.prdList > li{width:calc(50% - 8px);margin:0 4px;}
+    .ec-base-product ul.grid4.prdList > li:nth-child(n+5){margin-top:0;}
+    .ec-base-product ul.grid4.prdList > li:nth-child(n+3){margin-top:50px;}
+}
+
 @media all and (max-width: 760px) {
     .w_none{display:block;}
     .m_none{display:none;}
