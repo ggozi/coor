@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54.328" height="54.089" viewBox="0 0 54.328 54.089">
+  <g id="ico_mypage01" transform="translate(0.5 0.5)">
+    <path id="패스_78" data-name="패스 78" d="M488.224,391v16.516H448.577V375.66l21.236-21.236h14.17a4.242,4.242,0,0,1,4.242,4.243v2.614" transform="translate(-448.577 -354.424)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="패스_79" data-name="패스 79" d="M469.793,354.882v20.763H449.139" transform="translate(-448.558 -354.408)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <ellipse id="타원_6" data-name="타원 6" cx="10.618" cy="10.618" rx="10.618" ry="10.618" transform="translate(28.751 10.794)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="선_163" data-name="선 163" x2="5.943" y2="5.943" transform="translate(47.178 29.221)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <g id="그룹_174" data-name="그룹 174" transform="translate(10.167 28.77)">
+      <line id="선_164" data-name="선 164" x2="13.973" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="선_165" data-name="선 165" x2="19.314" transform="translate(0 7.963)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="선_166" data-name="선 166" x2="19.314" transform="translate(0 15.927)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

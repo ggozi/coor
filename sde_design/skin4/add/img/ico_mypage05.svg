@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55.121" height="37.041" viewBox="0 0 55.121 37.041">
+  <g id="ico_mypage05" transform="translate(0.5 0.5)">
+    <path id="패스_84" data-name="패스 84" d="M715.669,404.978H700.123V368.937h15.546" transform="translate(-700.123 -368.937)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="패스_85" data-name="패스 85" d="M717.5,368.937h26.466a6.107,6.107,0,0,1,6.107,6.106v23.828a6.107,6.107,0,0,1-6.107,6.106H717.5" transform="translate(-695.954 -368.937)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="선_169" data-name="선 169" y2="25.564" transform="translate(16.603 5.239)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <g id="그룹_178" data-name="그룹 178" transform="translate(27.237 8.85)">
+      <line id="선_170" data-name="선 170" x1="14.782" y2="14.782" transform="translate(1.692 1.692)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <ellipse id="타원_8" data-name="타원 8" cx="3.635" cy="3.635" rx="3.635" ry="3.635" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <ellipse id="타원_9" data-name="타원 9" cx="3.635" cy="3.635" rx="3.635" ry="3.635" transform="translate(10.897 10.897)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

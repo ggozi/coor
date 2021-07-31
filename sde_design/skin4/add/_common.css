@@ -17,7 +17,7 @@
 		url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'),
 		url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
 }
-*/
+*/z
 /* 회원가입 페이지 */
 .ec-base-box.typeThin {border:0;}
 .xans-member-join .join fieldset {width:500px;padding:0;font-family:"NanumBarunGothic",sans-serif; margin:0 auto;}
@@ -35,7 +35,7 @@
 .xans-member-join .eTooltip {display: block;}
 .join .login_title	{padding-bottom: 4px}
 
-.xans-member-join {;margin:0 auto;vertical-align:top;}
+.xans-member-join {margin:0 auto;vertical-align:top;}
 .xans-member-join .titleArea2 {font-size:24px;color:#333;font-weight:700;text-align:center;}
 .xans-member-join .titleArea2 span {display:block;font-size:15px;color:#848484;padding-top:10px;font-weight:400;}
 .xans-member-join .titleArea3 {font-size:24px;color:#333;font-weight:100;text-align:center;margin-bottom:30px;}

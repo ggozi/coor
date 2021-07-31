@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31.039" height="54.271" viewBox="0 0 31.039 54.271">
+  <g id="ico_mypage02" transform="translate(0.707 0.5)">
+    <ellipse id="타원_7" data-name="타원 7" cx="7.437" cy="7.437" rx="7.437" ry="7.437" transform="translate(7.376)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="패스_80" data-name="패스 80" d="M550.678,396.289v8.369a1.511,1.511,0,0,1-1.511,1.511H522.553a1.5,1.5,0,0,1-1.5-1.5v-8.38" transform="translate(-521.052 -352.898)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="패스_81" data-name="패스 81" d="M521.052,382.676a8.271,8.271,0,0,1,8.271-8.27h13.09a8.265,8.265,0,0,1,8.265,8.265" transform="translate(-521.052 -353.648)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="선_167" data-name="선 167" x2="10.523" y2="10.523" transform="translate(0 37.103)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="선_168" data-name="선 168" x1="10.523" y2="10.523" transform="translate(19.103 37.103)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>
