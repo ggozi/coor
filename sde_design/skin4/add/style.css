@@ -141,7 +141,17 @@ body,html{font-family:'Moderat';}
 .mypage #myshopMain .shopMain h3 a{padding-bottom:13px;font-size:13px;color:#8E8D8D;}
 .mypage #myshopMain .shopMain h3 strong{font-size:18px;color:#000;font-weight:normal;}
 #myshopMain .shopMain h3 span{padding-top:1px;}
-
+/*list*/
+.ec-base-product{margin:0 13px !important;}
+.ec-base-product .prdList{margin:320px 0 0;}
+.ec-base-product .prdList > li{margin:0 12px;}
+.ec-base-product ul.grid4.prdList > li{width:calc(25% - 24px);}
+.ec-base-product ul.grid4.prdList > li:nth-child(n+5){margin-top:193px;}
+.ec-base-product .prdList .thumbnail{margin:0;}
+.ec-base-product .prdList .thumbnail .prdImg{max-height:525px;}
+.ec-base-product .prdList .thumbnail a img{width:100%;}
+.ec-base-product .prdList .description{margin-top:25px;font-size:13px;color:#2E2E2E;}
+.ec-base-product .spec li span{font-size:13px !important;color:#2E2E2E !important;font-weight:normal !important;}
 
 @media all and (max-width: 1100px) {
     .menu1 > li > a{padding:28px 25px 24px;}
