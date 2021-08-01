@@ -1,4 +1,4 @@
-/* 윤고딕 폰트 */fgfhgchgfhgf
+/* 윤고딕 폰트 */
 @font-face{
     font-family:'Moderat';
     font-style: normal;
@@ -9,7 +9,7 @@
     src: url('../font/Moderat-Regular.ttf') format('ttf');
     src: url('../font/Moderat-Regular.woff') format('truetype');
 }
-test.test
+
 body,html{font-family:'Moderat';}
 .w_none{display:none;}
 .m_none{display:block;}
