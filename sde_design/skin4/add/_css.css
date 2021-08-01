@@ -515,10 +515,11 @@ a:hover {text-decoration:none;-webkit-transition: .2s ease-in-out; transition: .
 .xans-product-detail .headingArea .icon img { margin:0 1px; vertical-align:middle; }
 
 /* imgArea */
+#zoomMouseGiude{display:none;}
 .xans-product-detail .imgArea { width:calc(100% - 285px);text-align:center;position:relative;padding-bottom:20px;margin:0 auto;display:inline-block;}
 .xans-product-detail .imgArea > div {display:block;}
 .xans-product-detail .imgArea .keyImg { width:100%; margin:0 auto; }
-.xans-product-detail .imgArea .keyImg img {max-width:720px; border:0px solid #ececec; cursor:pointer; }
+.xans-product-detail .imgArea .keyImg img { display:none; max-width:720px; border:0px solid #ececec; }
 .xans-product-detail .imgArea .listImg { width:100%; margin:15px auto 0; }
 .xans-product-detail .imgArea .listImg ul { margin:0; font-size:0; line-height:0;height:auto;}
 .xans-product-detail .imgArea .listImg li {margin:0 3px;}
