@@ -1,4 +1,3 @@
-/* 윤고딕 폰트 */
 @font-face{
     font-family:'Moderat';
     font-style: normal;
@@ -153,13 +152,13 @@ body,html{font-family:'Moderat';}
 .ec-base-paginate{margin-top:60px;}
 /*detail*/
 .ly_prd_detail{padding:221px 159px 0;}
-/* #zoomMouseGiude,
+#zoomMouseGiude,#prdInfo,
 .xans-product-detail .infoArea th,
 .xans-product-detail .infoArea tr:nth-child(3) td,
 .xans-product-detail .infoArea tr:nth-child(4) td,
 .xans-product-detail .infoArea tr:nth-child(5) td,
 .xans-product-detail .infoArea .xans-product-option .value,
-span.ec-base-help, p.ec-base-help, ul.ec-base-help li{display:none !important;} */
+span.ec-base-help, p.ec-base-help, ul.ec-base-help li{display:none !important;}
 .ly_prd_detail .xans-product-detail .infoArea tr:nth-child(1) td span{font-size:18px !important;line-height:22px !important;color:#2E2E2E;}
 .ly_prd_detail .xans-product-detail .infoArea tr:nth-child(2) td span{margin-top:1px;font-size:18px !important;line-height:22px !important;color:#2E2E2E !important;}
 .ly_prd_detail .xans-product-detail .infoArea .xans-product-option tr:first-child td,
@@ -196,6 +195,16 @@ span.ec-base-help, p.ec-base-help, ul.ec-base-help li{display:none !important;} 
 .ly_prd_detail .xans-product-detail .imgArea .keyImg .thumbnail{display:block;}
 .ly_prd_detail .xans-product-detail .imgArea .keyImg img{width:100%;max-width:none;}
 .ly_prd_detail .detailArea .infoArea{float:right;width:calc(100% - 59.8%);padding:24px 0 0 9.925%;box-sizing:border-box;}
+.ly_prd_detail #totalProducts table tr.option_product > td{padding-bottom:10px;}
+.ly_prd_detail .prd_detail{margin-top:90px;font-size:15px;line-height:24px;}
+.ly_prd_detail .prd_detail .desc_info{margin-bottom:65px;}
+.ly_prd_detail .prd_detail .desc_fabric{margin-bottom:11px;}
+.ly_prd_detail .prd_detail .desc_size{margin-bottom:18px;}
+.ly_prd_detail .prd_detail .desc_size dl:after{content:'';display:block;clear:both;}
+.ly_prd_detail .prd_detail .desc_size dl > *{float:left;}
+.ly_prd_detail .prd_detail .desc_size dl dt{width:94px;}
+.ly_prd_detail .prd_detail .desc_size dl dd{width:66px;}
+.ly_prd_detail .prd_detail .desc_short{font-size:13px;}
 
 @media all and (max-width: 1100px) {
     .menu1 > li > a{padding:28px 25px 24px;}

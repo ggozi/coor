@@ -545,27 +545,34 @@
                     </div>
 
                     <!--#210801 상품 정보 추가-->
-                    <div>
-                        <div module="product_additional">
-                            <div id="prdInfo" class="ec-base-tab gFlex">
-                                <div class="cont">
-                                    <h3>Info</h3>
-                                    {$payment_info}
-                                </div>
-                                <div class="cont">
-                                    <h3>Fabric Description</h3>
-                                    <p>NYLON 44% POLYESTER 29% WOOL 27%</p>
-                                </div>
-                                <div class="cont">
-                                    <h3>교환 및 반품정보</h3>
-                                    {$exchange_info}
-                                </div>
-                                <div class="cont">
-                                    <h3>서비스문의</h3>
-                                    {$service_info}
-                                </div>
-                            </div>
-                        </div>
+                    <div class="prd_detail">
+                        <dl>
+                            <dt>Info</dt>
+                            <dd class="desc_info">21SS 2-Buttons Blazer</dd>
+                            <dt>Fabric Description</dt>
+                            <dd class="desc_fabric">NYLON 44% POLYESTER 29% WOOL 27%</dd>
+                            <dt>Size</dt>
+                            <dd class="desc_size">
+                                <dl>
+                                    <dt>Model</dt>
+                                    <dd class="desc_model_cm">184cm</dd>
+                                    <dd class="desc_model_kg">56kg</dd>
+                                </dl>
+                                <dl>
+                                    <dt>Fitting Size</dt>
+                                    <dd class="desc_fitting">L</dd>
+                                </dl>
+                            </dd>
+                            <dt>Details</dt>
+                            <dd class="desc_short">
+                                세미 오버핏 <br>
+                                2버튼 형식 자켓<br>
+                                내부 등판에는 안감이 없는 하프 라이닝 형식<br>
+                                얇은 두께감과 시원한 소재감으로 여름에도 착용 가능한 아우터<br>
+                                후면부 슬릿 디테일로 활동성 향상<br>
+                                드라이 클리닝
+                            </dd>
+                        </dl>
                     </div>
                     <!--//#210801 상품 정보 추가-->
     
@@ -613,6 +620,30 @@
             </div>
         </div>
     
+        <div id="prdInfo" class="ec-base-tab gFlex">
+            <div class="cont">
+                <h3>상품결제정보</h3>
+                {$payment_info}
+            </div>
+            <div class="cont">
+                <h3>배송정보</h3>
+                <ul class="delivery">
+                    <li>배송 방법 : {$shipping_method}</li>
+                    <li>배송 지역 : {$shipping_area}</li>
+                    <li>배송 비용 : {$shipping_fee}</li>
+                    <li>배송 기간 : {$shipping_period}</li>
+                    <li>배송 안내 : {$shipping_info}</li>
+                </ul>
+            </div>
+            <div class="cont">
+                <h3>교환 및 반품정보</h3>
+                {$exchange_info}
+            </div>
+            <div class="cont">
+                <h3>서비스문의</h3>
+                {$service_info}
+            </div>
+        </div>
     
         
         <div module="product_relation" id="prdRelated" class="ec-base-tab gFlex">
