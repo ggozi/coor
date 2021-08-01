@@ -182,3 +182,26 @@ function navBtn(){	//GNB Btn
 		$('.btn_close').trigger('click');
 	})
 }
+
+$(document).ready(function(){	 
+	if( $(".infoArea") ){
+		
+		var desc_short = $("[data-i18n=PRODUCT.PRD_INFO_SIMPLE_DESC]").closest("tr").find("td span").html();
+		var desc_info = $("[data-i18n=PRODUCT.PRD_INFO_CUSTOM_OPTION1]").closest("tr").find("td span").html();
+		var desc_fabic = $("[data-i18n=PRODUCT.PRD_INFO_CUSTOM_OPTION2]").closest("tr").find("td span").html();
+		var desc_model = $("[data-i18n=PRODUCT.PRD_INFO_CUSTOM_OPTION3]").closest("tr").find("td span").html();
+		var desc_size = $("[data-i18n=PRODUCT.PRD_INFO_CUSTOM_OPTION4]").closest("tr").find("td span").html();
+
+		$(".desc_short").html(desc_short.replace(/\n/g, '<br/>'));
+		$(".desc_info").html(desc_info);
+		$(".desc_fabic").html(desc_fabic);
+		
+		var _desc_model = desc_model.split(',');
+		$(".desc_model_cm").html(_desc_model[0]);
+		$(".desc_model_kg").html(_desc_model[1]);
+		$(".desc_fitting").html(desc_size);
+		$(".prd_detail").show();
+
+	}
+
+});
