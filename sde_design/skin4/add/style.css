@@ -151,7 +151,51 @@ body,html{font-family:'Moderat';}
 .ec-base-product .prdList .description{margin-top:25px;font-size:13px;color:#2E2E2E;}
 .ec-base-product .spec li span{font-size:13px !important;color:#2E2E2E !important;font-weight:normal !important;}
 .ec-base-paginate{margin-top:60px;}
-#zoomMouseGiude{display:none !important;}
+/*detail*/
+.ly_prd_detail{padding:221px 159px 0;}
+#zoomMouseGiude,
+.xans-product-detail .infoArea th,
+.xans-product-detail .infoArea tr:nth-child(3) td,
+.xans-product-detail .infoArea tr:nth-child(4) td,
+.xans-product-detail .infoArea tr:nth-child(5) td,
+.xans-product-detail .infoArea .xans-product-option .value,
+span.ec-base-help, p.ec-base-help, ul.ec-base-help li{display:none !important;}
+.ly_prd_detail .xans-product-detail .infoArea tr:nth-child(1) td span{font-size:18px !important;line-height:22px !important;color:#2E2E2E;}
+.ly_prd_detail .xans-product-detail .infoArea tr:nth-child(2) td span{margin-top:1px;font-size:18px !important;line-height:22px !important;color:#2E2E2E !important;}
+.ly_prd_detail .xans-product-detail .infoArea .xans-product-option tr:first-child td,
+.ly_prd_detail .xans-product-detail .infoArea .xans-product-option .xans-product-fileoption td{border:none !important;}
+.ly_prd_detail .xans-product-detail .infoArea td{padding:0;}
+.ly_prd_detail .xans-product-detail .infoArea .xans-product-option .ec-product-button li{margin:0;border-color:#2B2B2B;}
+.ly_prd_detail .xans-product-detail .infoArea .xans-product-option .ec-product-button li + li{border-left:0;}
+.ly_prd_detail .xans-product-detail .infoArea .xans-product-option .ec-product-button li + li.ec-product-selected{position:relative;border-left:2px;}
+.ly_prd_detail .xans-product-detail .infoArea .xans-product-option .ec-product-button li + li.ec-product-selected:before{position:absolute;top:0;bottom:0;left:0;content:'';display:block;width:1px;height:100%;background: #2b2b2b;;}
+.ly_prd_detail .xans-product-detail .infoArea .xans-product-option .ec-product-button li a{min-width:55px;transition:none;-webkit-transition:none;}
+.ly_prd_detail .xans-product-detail .infoArea .xans-product-option .ec-product-button li a span{line-height:40px !important;height:40px;padding:0;}
+.ly_prd_detail .xans-product-detail .infoArea .xans-product-option .ec-product-button.ec-product-preview li{padding:0;}
+.ly_prd_detail .xans-product-detail .infoArea .xans-product-option .ec-product-button.ec-product-preview li a{width:auto;height:38px;}
+.ly_prd_detail .xans-product-detail .infoArea .xans-product-option .ec-product-button .ec-product-disabled a span{background:none;}
+/* .ly_prd_detail .xans-product-detail .infoArea .xans-product-option tr td{padding:0;} */
+.ly_prd_detail #totalProducts > table > tbody > tr:first-child > td,
+.ly_prd_detail .xans-product-detail .infoArea .xans-product-action{border:none;}
+#totalProducts tbody td p > span{font-size:12px !important;line-height:21px !important;}
+.ly_prd_detail .ec-base-button{padding:0;}
+.ly_prd_detail .xans-product-detail .infoArea .xans-product-action{padding-top:11px;}
+.ly_prd_detail .ec-base-button[class*="gColumn"] > a:hover,
+.ly_prd_detail .ec-base-button[class*="gColumn"] > a:focus{background:#F6F6F6;}
+.ly_prd_detail .ec-base-button[class*="gColumn"] > a + a{border-left:0;}
+.ly_prd_detail .ec-base-button[class*="gColumn"] [class^='btn']{margin:0;width:160px;height:38px;line-height:38px;padding:0;font-size:18px;color:#2E2E2E;border-color:#2B2B2B;font-family:'Moderat';font-weight:normal;border-radius:0;}
+.ly_prd_detail [class^='btnSubmit'],
+.ly_prd_detail  a[class^='btnSubmit']{background:none;color:#2E2E2E;}
+.ly_prd_detail .ec-base-button[class*="gColumn"]{width:320px;margin:0;}
+.ly_prd_detail .totalPrice{display:none;}
+.ly_prd_detail .xans-product-detail{padding:0;}
+.ly_prd_detail .xans-product-detail .detailArea{padding:0;}
+.ly_prd_detail .xans-product-detail .imgArea{width:59.8%;margin:0;}
+.ly_prd_detail .xans-product-detail .detailArea{padding:0;}
+.ly_prd_detail .xans-product-detail .imgArea .keyImg{width:auto;}
+.ly_prd_detail .xans-product-detail .imgArea .keyImg .thumbnail{display:block;}
+.ly_prd_detail .xans-product-detail .imgArea .keyImg img{width:100%;max-width:none;}
+.ly_prd_detail .detailArea .infoArea{float:right;width:calc(100% - 59.8%);padding:24px 0 0 9.925%;box-sizing:border-box;}
 
 @media all and (max-width: 1100px) {
     .menu1 > li > a{padding:28px 25px 24px;}
