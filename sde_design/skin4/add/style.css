@@ -153,13 +153,13 @@ body,html{font-family:'Moderat';}
 .ec-base-paginate{margin-top:60px;}
 /*detail*/
 .ly_prd_detail{padding:221px 159px 0;}
-#zoomMouseGiude,
+/* #zoomMouseGiude,
 .xans-product-detail .infoArea th,
 .xans-product-detail .infoArea tr:nth-child(3) td,
 .xans-product-detail .infoArea tr:nth-child(4) td,
 .xans-product-detail .infoArea tr:nth-child(5) td,
 .xans-product-detail .infoArea .xans-product-option .value,
-span.ec-base-help, p.ec-base-help, ul.ec-base-help li{display:none !important;}
+span.ec-base-help, p.ec-base-help, ul.ec-base-help li{display:none !important;} */
 .ly_prd_detail .xans-product-detail .infoArea tr:nth-child(1) td span{font-size:18px !important;line-height:22px !important;color:#2E2E2E;}
 .ly_prd_detail .xans-product-detail .infoArea tr:nth-child(2) td span{margin-top:1px;font-size:18px !important;line-height:22px !important;color:#2E2E2E !important;}
 .ly_prd_detail .xans-product-detail .infoArea .xans-product-option tr:first-child td,

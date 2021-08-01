@@ -543,6 +543,31 @@
                         <span class="btnEm sizeL gFlex2 {$soldout_display|display}">SOLD OUT</span>
                         <!-- <a href="#none" onclick="{$action_wishlist}" class="btnNormal sizeL {$wishlist_display|display}">관심상품등록</a> -->
                     </div>
+
+                    <!--#210801 상품 정보 추가-->
+                    <div>
+                        <div module="product_additional">
+                            <div id="prdInfo" class="ec-base-tab gFlex">
+                                <div class="cont">
+                                    <h3>Info</h3>
+                                    {$payment_info}
+                                </div>
+                                <div class="cont">
+                                    <h3>Fabric Description</h3>
+                                    <p>NYLON 44% POLYESTER 29% WOOL 27%</p>
+                                </div>
+                                <div class="cont">
+                                    <h3>교환 및 반품정보</h3>
+                                    {$exchange_info}
+                                </div>
+                                <div class="cont">
+                                    <h3>서비스문의</h3>
+                                    {$service_info}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--//#210801 상품 정보 추가-->
     
                     <!-- 네이버 체크아웃 구매 버튼 -->
                     <div id="NaverChk_Button"></div><!-- //네이버 체크아웃 구매 버튼 -->
@@ -588,30 +613,6 @@
             </div>
         </div>
     
-        <!-- <div id="prdInfo" class="ec-base-tab gFlex">
-            <div class="cont">
-                <h3>상품결제정보</h3>
-                {$payment_info}
-            </div>
-            <div class="cont">
-                <h3>배송정보</h3>
-                <ul class="delivery">
-                    <li>배송 방법 : {$shipping_method}</li>
-                    <li>배송 지역 : {$shipping_area}</li>
-                    <li>배송 비용 : {$shipping_fee}</li>
-                    <li>배송 기간 : {$shipping_period}</li>
-                    <li>배송 안내 : {$shipping_info}</li>
-                </ul>
-            </div>
-            <div class="cont">
-                <h3>교환 및 반품정보</h3>
-                {$exchange_info}
-            </div>
-            <div class="cont">
-                <h3>서비스문의</h3>
-                {$service_info}
-            </div>
-        </div> -->
     
         
         <div module="product_relation" id="prdRelated" class="ec-base-tab gFlex">
