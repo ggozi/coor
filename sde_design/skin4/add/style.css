@@ -13,7 +13,7 @@
 body,html{font-family:'Moderat';}
 .w_none{display:none;}
 .m_none{display:block;}
-
+.text{display: block;}
 ::placeholder{color: #a8a8a8;font-size:14px;font-family:'Moderat';}
 ::-webkit-input-placeholder{color: #a8a8a8;font-size:14px;font-family:'Moderat';}
 ::-moz-placeholder{color: #a8a8a8;font-size:14px;font-family:'Moderat';}
