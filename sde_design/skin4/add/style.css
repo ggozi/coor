@@ -67,10 +67,10 @@ body,html{font-family:'Moderat';}
 
 /*sub*/
 .ly_inner{padding:254px 0;}
-.layout_col2{position:relative;}
-.layout_col2 .titleArea{position:absolute;top:0;left:23.5038%;width:160px;margin:0;border:none;}
+.layout_col2{position:relative;max-width:1280px;margin:0 auto;}
+.layout_col2 .titleArea{position:absolute;top:0;left:0;width:160px;margin:0;border:none;}
 .layout_col2 .titleArea h2{font-size:14px;font-weight:normal;}
-.layout_col2 .cont{max-width:960px;padding:0 160px;margin:0 auto;box-sizing:border-box;}
+.layout_col2 .cont{max-width:960px;margin:0 auto;box-sizing:border-box;}
 /*login*/
 .ec-base-box.typeThin{border:none !important;}
 .xans-member-login .login{padding-top:0;}
@@ -225,6 +225,53 @@ span.ec-base-help, p.ec-base-help, ul.ec-base-help li{display:none !important;}
 .ly_prd_detail .ec-base-table thead th,
 .ly_prd_detail .ec-base-button.typeBorder{border:none;}
 .ly_prd_detail .ec-base-button.typeBorder{margin-top:10px;}
+.ly_prd_detail .xans-product-additional div.board p.nodata{border-width:1px 0;}
+/*member join*/
+.layout_col2.join .titleArea{top:20px;}
+.layout_col2 .ec-base-table table{border:none;margin:0;}
+.layout_col2 .ec-base-table tbody th{color:#A8A8A8;}
+.layout_col2 .ec-base-table tbody th,
+.layout_col2 .ec-base-table td{padding:20px 0 0;background:none;border:none;border-bottom:1px solid #707070;}
+.layout_col2 .ec-base-table table:before{display:none;}
+input[type=text], input[type=password],select{border:none;}
+
+/*적립금*/
+.xans-myshop-summary:after{content:'';display:block;clear:both;}
+.xans-myshop-summary ul{width:50%;float:left;}
+.xans-myshop-summary ul li{float:none;width:100%;font-size:14px;}
+.xans-myshop-summary ul li+li{margin-top:40px;}
+.ec-base-tab .menu{margin-bottom:0;background:none;border:none;border-bottom:1px solid #707070;}
+.ec-base-tab .menu li{border:none;background:none;}
+.ec-base-tab .menu li a{min-width:203px;margin-bottom:-1px;font-size:14px;color:#000;background:none;border:1px solid #707070;}
+.ec-base-tab .menu li.selected a{top:initial;color:#fff;background:#A2A2A2;border:1px solid #707070;border-bottom:0;font-weight:normal;}
+.ec-base-tab .menu li.selected:first-child a{left:0;}
+.ec-base-tab .menu li:last-child a{border-left:none;}
+.ec-base-tab .menu li.selected:last-child a{border-left:1px solid #707070;}
+.ec-base-table.typeList table{margin-top:0;border:none;border-bottom:1px solid #707070;}
+.ec-base-table thead th,.ec-base-table thead td{border:none;background:none;}
+.ec-base-table .message{border-width:0 0 1px;border-color:#707070;}
+.mileage_info{margin-top:14px;}
+.mileage_info h3{font-size:14px;color:#171717;font-weight:normal;}
+.mileage_info li{font-size:14px;color:#797979;}
+
+/* 주문조회 */
+.ec-base-box.brd_no{border:none !important;}
+.order select.fSelect{width:300px;height:34px;line-height:34px;font-family:'Moderat';font-size:15px;border:1px solid #707070;text-align-last:center;}
+.xans-myshop-orderhistoryhead .stateSelect{background:none;}
+.xans-myshop-orderhistoryhead fieldset .period a{display:inline-block;width:50px;height:34px;line-height:34px;font-size:14px;color:#000;font-family:'Moderat';border-radius:0;border:1px solid #707070;}
+.xans-myshop-orderhistoryhead fieldset .period a + a{margin-left:-1px;}
+.xans-myshop-orderhistoryhead fieldset .fText{height:32px;line-height:32px;padding:0 24px;text-align:center;font-size:14x;font-family:'Moderat';border-color:#707070;}
+.xans-myshop-orderhistoryhead ul{margin-top:0;}
+.xans-myshop-orderhistoryhead ul li{padding:0;background:none;color:#797979;}
+.order .ec-base-table.typeList{margin-top:130px;}
+.order .ec-base-table.typeList table{border-top:1px solid #707070;border-bottom:none;}
+/*pagenum*/
+.order .ec-base-box{padding:30px 0 24px;}
+.ec-base-paginate > a{display:inline-block;padding:8px 0;box-sizing:border-box;line-height:20px;height:20px;}
+.ec-base-paginate li,.ec-base-paginate li a.this{border:none;}
+.ec-base-paginate li a.this{padding:4px 0;line-height:1;}
+.ec-base-paginate li a:hover{background:none;}
+.fc_black{color:#000 !important;}
 
 @media all and (max-width: 1100px) {
     .menu1 > li > a{padding:28px 25px 24px;}
