@@ -101,7 +101,8 @@ $(document).ready(function(){
 
 			  
 	$(".gnb-parent").bind('click', function(e) { 
-
+		
+		if( !$(this).find("a").attr("data-selectside") ) return;
 		$(".gnb-parent").removeClass("on");
 		$(".gnb-parent a").removeClass("on");
 		$(this).addClass("on");
